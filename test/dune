@@ -1,4 +1,4 @@
-(executables
- (names test_verifier)
- (modules test_verifier)
- (libraries verifier yojson digestif))
+(executable
+ (name test_valid)
+ (modules test_valid)
+ (libraries yojson veribound_hash_seal))

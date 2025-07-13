@@ -1,0 +1,2528 @@
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bcompare
+Text: Bcompare
+--------------------------------------------------
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bcompare
+Text: Bcompare
+--------------------------------------------------
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bcompare_swap
+Text: Bcompare_swap
+--------------------------------------------------
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bcompare_correct
+Text: Bcompare_correct
+--------------------------------------------------
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bcompare_swap
+Text: Bcompare_swap
+--------------------------------------------------
+Keyword: Bcompare
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bcompare_correct
+Text: Bcompare_correct
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#abs_B2R_ge_emin
+Text: abs_B2R_ge_emin
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#abs_B2R_lt_emax
+Text: abs_B2R_lt_emax
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#abs_B2R_le_emax_minus_prec
+Text: abs_B2R_le_emax_minus_prec
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#abs_B2R_ge_emin
+Text: abs_B2R_ge_emin
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#abs_B2R_lt_emax
+Text: abs_B2R_lt_emax
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#abs_B2R_le_emax_minus_prec
+Text: abs_B2R_le_emax_minus_prec
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R
+Text: B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R
+Text: B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_Babs
+Text: B2R_Babs
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_Bopp
+Text: B2R_Bopp
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_BSN2B'
+Text: B2R_BSN2B'
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_BSN2B
+Text: B2R_BSN2B
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_build_nan
+Text: B2R_build_nan
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_Bsign_inj
+Text: B2R_Bsign_inj
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_inj
+Text: B2R_inj
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_FF2B
+Text: B2R_FF2B
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2R_B2BSN
+Text: B2R_B2BSN
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R_Babs
+Text: B2R_Babs
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R_Bopp
+Text: B2R_Bopp
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R_Bsign_inj
+Text: B2R_Bsign_inj
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R_inj
+Text: B2R_inj
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2R_SF2B
+Text: B2R_SF2B
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FLT_format_B2R
+Text: FLT_format_B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#FLT_format_B2R
+Text: FLT_format_B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#generic_format_B2R
+Text: generic_format_B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#generic_format_B2R
+Text: generic_format_B2R
+--------------------------------------------------
+Keyword: B2R
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_B2R
+Text: is_finite_strict_B2R
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_float_sind
+Text: binary_float_sind
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_float_rec
+Text: binary_float_rec
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_float_ind
+Text: binary_float_ind
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_float_rect
+Text: binary_float_rect
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_float
+Text: binary_float
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#binary_float_of_bits_of_binary_float
+Text: binary_float_of_bits_of_binary_float
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#binary_float_of_bits
+Text: binary_float_of_bits
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#binary_float_of_bits_aux_correct
+Text: binary_float_of_bits_aux_correct
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#binary_float_of_bits_aux
+Text: binary_float_of_bits_aux
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#binary_float
+Text: binary_float
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_float_sind
+Text: binary_float_sind
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_float_rec
+Text: binary_float_rec
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_float_ind
+Text: binary_float_ind
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_float_rect
+Text: binary_float_rect
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_float
+Text: binary_float
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#bits_of_binary_float_of_bits
+Text: bits_of_binary_float_of_bits
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#bits_of_binary_float_range
+Text: bits_of_binary_float_range
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#bits_of_binary_float
+Text: bits_of_binary_float
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#split_bits_of_binary_float_correct
+Text: split_bits_of_binary_float_correct
+--------------------------------------------------
+Keyword: binary_float
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Bits.html#split_bits_of_binary_float
+Text: split_bits_of_binary_float
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html
+Text: Flocq.IEEE754.Binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html
+Text: Flocq.IEEE754.BinarySingleNaN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#AnyRadix
+Text: AnyRadix
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Babs
+Text: Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Babs
+Text: Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Babs_Bopp
+Text: Babs_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Babs_idempotent
+Text: Babs_idempotent
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Babs_Bopp
+Text: Babs_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Babs_idempotent
+Text: Babs_idempotent
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bdiv
+Text: Bdiv
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bdiv
+Text: Bdiv
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bdiv_correct
+Text: Bdiv_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bdiv_correct
+Text: Bdiv_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bdiv_correct_aux
+Text: Bdiv_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Beqb
+Text: Beqb
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Beqb_refl
+Text: Beqb_refl
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Beqb_correct
+Text: Beqb_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bfma
+Text: Bfma
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfma
+Text: Bfma
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bfma_correct
+Text: Bfma_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bfma_szero
+Text: Bfma_szero
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfma_correct
+Text: Bfma_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfma_szero
+Text: Bfma_szero
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bfrexp
+Text: Bfrexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfrexp
+Text: Bfrexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bfrexp_correct
+Text: Bfrexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfrexp_correct
+Text: Bfrexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bfrexp_correct_aux
+Text: Bfrexp_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary
+Text: Binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Binary
+Text: Binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_normalize_correct
+Text: binary_normalize_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_normalize
+Text: binary_normalize
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_round_correct
+Text: binary_round_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_round
+Text: binary_round
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_round_aux_correct
+Text: binary_round_aux_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_round_aux_correct'
+Text: binary_round_aux_correct'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_round_aux
+Text: binary_round_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#binary_overflow
+Text: binary_overflow
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_normalize_correct
+Text: binary_normalize_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_normalize
+Text: binary_normalize
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_round_correct
+Text: binary_round_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_round
+Text: binary_round
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_round_aux_correct
+Text: binary_round_aux_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_round_aux_correct'
+Text: binary_round_aux_correct'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_round_aux
+Text: binary_round_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_fit_aux_correct
+Text: binary_fit_aux_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_fit_aux
+Text: binary_fit_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_overflow_correct
+Text: binary_overflow_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#binary_overflow
+Text: binary_overflow
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.Bfrexp
+Text: Binary.Bfrexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.Bfrexp.Hemax
+Text: Binary.Bfrexp.Hemax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.emax
+Text: Binary.emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Binary.emax
+Text: Binary.emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.prec
+Text: Binary.prec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Binary.prec
+Text: Binary.prec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.prec_lt_emax_
+Text: Binary.prec_lt_emax_
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Binary.prec_gt_0_
+Text: Binary.prec_gt_0_
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Binary.prec_lt_emax_
+Text: Binary.prec_lt_emax_
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Binary.prec_gt_0_
+Text: Binary.prec_gt_0_
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bldexp
+Text: Bldexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bldexp
+Text: Bldexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bldexp_correct
+Text: Bldexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bldexp_Bopp_NE
+Text: Bldexp_Bopp_NE
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bldexp_correct
+Text: Bldexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bleb
+Text: Bleb
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bleb_correct
+Text: Bleb_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bltb
+Text: Bltb
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bltb_correct
+Text: Bltb_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bmax_float
+Text: Bmax_float
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bmax_float
+Text: Bmax_float
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bmax_float_proof
+Text: Bmax_float_proof
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bminus
+Text: Bminus
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bminus
+Text: Bminus
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bminus_correct
+Text: Bminus_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bminus_correct
+Text: Bminus_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bmult
+Text: Bmult
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bmult
+Text: Bmult
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bmult_correct
+Text: Bmult_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bmult_correct
+Text: Bmult_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bmult_correct_aux
+Text: Bmult_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bnearbyint
+Text: Bnearbyint
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bnearbyint
+Text: Bnearbyint
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bnearbyint_correct
+Text: Bnearbyint_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bnearbyint_correct
+Text: Bnearbyint_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bnearbyint_correct_aux
+Text: Bnearbyint_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bnormfr_mantissa
+Text: Bnormfr_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bnormfr_mantissa_correct
+Text: Bnormfr_mantissa_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bnormfr_mantissa
+Text: Bnormfr_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bone
+Text: Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bone
+Text: Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bone_correct
+Text: Bone_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bone_correct
+Text: Bone_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bopp
+Text: Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bopp
+Text: Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bopp_involutive
+Text: Bopp_involutive
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bopp_involutive
+Text: Bopp_involutive
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#bounded
+Text: bounded
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#bounded
+Text: bounded
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#bounded_canonical_lt_emax
+Text: bounded_canonical_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#bounded_ge_emin
+Text: bounded_ge_emin
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#bounded_lt_emax
+Text: bounded_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#bounded_le_emax_minus_prec
+Text: bounded_le_emax_minus_prec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#bounded_canonical_lt_emax
+Text: bounded_canonical_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#bounded_ge_emin
+Text: bounded_ge_emin
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#bounded_lt_emax
+Text: bounded_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#bounded_le_emax_minus_prec
+Text: bounded_le_emax_minus_prec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bplus
+Text: Bplus
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bplus
+Text: Bplus
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bplus_correct
+Text: Bplus_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bplus_correct
+Text: Bplus_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bpred
+Text: Bpred
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bpred
+Text: Bpred
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bpred_correct
+Text: Bpred_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bpred_pos'_correct
+Text: Bpred_pos'_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bpred_pos'
+Text: Bpred_pos'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bpred_correct
+Text: Bpred_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign
+Text: Bsign
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsign
+Text: Bsign
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_Bone
+Text: Bsign_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_Babs
+Text: Bsign_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_Bopp
+Text: Bsign_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_BSN2B'
+Text: Bsign_BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_BSN2B
+Text: Bsign_BSN2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_B2BSN
+Text: Bsign_B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsign_FF2B
+Text: Bsign_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsign_Bone
+Text: Bsign_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsign_Babs
+Text: Bsign_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsign_Bopp
+Text: Bsign_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsign_SF2B
+Text: Bsign_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#BSN2B
+Text: BSN2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#BSN2B'
+Text: BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsqrt
+Text: Bsqrt
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsqrt
+Text: Bsqrt
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsqrt_correct
+Text: Bsqrt_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsqrt_correct
+Text: Bsqrt_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsqrt_correct_aux
+Text: Bsqrt_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsucc
+Text: Bsucc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsucc
+Text: Bsucc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bsucc_correct
+Text: Bsucc_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsucc_correct
+Text: Bsucc_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsucc'
+Text: Bsucc'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bsucc'_correct
+Text: Bsucc'_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Btrunc
+Text: Btrunc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Btrunc
+Text: Btrunc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Btrunc_correct
+Text: Btrunc_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Btrunc_correct
+Text: Btrunc_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#build_nan_correct
+Text: build_nan_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#build_nan
+Text: build_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bulp
+Text: Bulp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bulp
+Text: Bulp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#Bulp_correct
+Text: Bulp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bulp_correct
+Text: Bulp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bulp_correct_aux
+Text: Bulp_correct_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bulp'
+Text: Bulp'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Bulp'_correct
+Text: Bulp'_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2BSN
+Text: B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2BSN_lift
+Text: B2BSN_lift
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2BSN_BSN2B'
+Text: B2BSN_BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2BSN_BSN2B
+Text: B2BSN_BSN2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2FF
+Text: B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2FF_BSN2B'
+Text: B2FF_BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2FF_inj
+Text: B2FF_inj
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2FF_FF2B
+Text: B2FF_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2SF
+Text: B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2SF
+Text: B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2SF_FF2B
+Text: B2SF_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B2SF_B2BSN
+Text: B2SF_B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2SF_inj
+Text: B2SF_inj
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B2SF_SF2B
+Text: B2SF_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B754_finite
+Text: B754_finite
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B754_nan
+Text: B754_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B754_infinity
+Text: B754_infinity
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#B754_zero
+Text: B754_zero
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B754_finite
+Text: B754_finite
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B754_nan
+Text: B754_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B754_infinity
+Text: B754_infinity
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#B754_zero
+Text: B754_zero
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#canonical_canonical_mantissa
+Text: canonical_canonical_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#canonical_mantissa
+Text: canonical_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#canonical_bounded
+Text: canonical_bounded
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#canonical_canonical_mantissa
+Text: canonical_canonical_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#canonical_mantissa
+Text: canonical_mantissa
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#choice_mode
+Text: choice_mode
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#emin
+Text: emin
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#emin
+Text: emin
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#emin_lt_emax
+Text: emin_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#eq_binary_overflow_FF2SF
+Text: eq_binary_overflow_FF2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#erase
+Text: erase
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#erase
+Text: erase
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#erase_correct
+Text: erase_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#erase_correct
+Text: erase_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#fexp
+Text: fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#fexp
+Text: fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#fexp_monotone
+Text: fexp_monotone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#fexp_correct
+Text: fexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#fexp_emax
+Text: fexp_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#fexp_monotone
+Text: fexp_monotone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#fexp_correct
+Text: fexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Ffrexp_core_binary
+Text: Ffrexp_core_binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2B
+Text: FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2B_B2FF_valid
+Text: FF2B_B2FF_valid
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2B_B2FF
+Text: FF2B_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2R
+Text: FF2R
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2R_B2FF
+Text: FF2R_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2R_SF2FF
+Text: FF2R_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2SF
+Text: FF2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2SF_B2FF
+Text: FF2SF_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#FF2SF_SF2FF
+Text: FF2SF_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Fplus_naive_correct
+Text: Fplus_naive_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Fplus_naive
+Text: Fplus_naive
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#full_float_sind
+Text: full_float_sind
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#full_float_rec
+Text: full_float_rec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#full_float_ind
+Text: full_float_ind
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#full_float_rect
+Text: full_float_rect
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#full_float
+Text: full_float
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#F754_finite
+Text: F754_finite
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#F754_nan
+Text: F754_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#F754_infinity
+Text: F754_infinity
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#F754_zero
+Text: F754_zero
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#get_nan_pl
+Text: get_nan_pl
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#inbetween_shr
+Text: inbetween_shr
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#inbetween_shr_1
+Text: inbetween_shr_1
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_Bone
+Text: is_finite_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_Babs
+Text: is_finite_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_Bopp
+Text: is_finite_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_BSN2B'
+Text: is_nan_BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_BSN2B'
+Text: is_finite_BSN2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_BSN2B
+Text: is_nan_BSN2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_BSN2B
+Text: is_finite_BSN2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_build_nan
+Text: is_nan_build_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_build_nan
+Text: is_finite_build_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_B2FF
+Text: is_nan_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_FF2B
+Text: is_nan_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_B2BSN
+Text: is_nan_B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan
+Text: is_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_B2FF
+Text: is_finite_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_FF2B
+Text: is_finite_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_B2BSN
+Text: is_finite_B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite
+Text: is_finite
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_strict_B2BSN
+Text: is_finite_strict_B2BSN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_strict
+Text: is_finite_strict
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_SF2FF
+Text: is_finite_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_finite_FF
+Text: is_finite_FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_FF2SF
+Text: is_nan_FF2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_SF2FF
+Text: is_nan_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#is_nan_FF
+Text: is_nan_FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bpred
+Text: is_nan_Bpred
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bsucc
+Text: is_nan_Bsucc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_Bulp
+Text: is_finite_strict_Bulp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bulp
+Text: is_nan_Bulp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bfrexp
+Text: is_nan_Bfrexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bldexp
+Text: is_nan_Bldexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_Bone
+Text: is_finite_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bone
+Text: is_nan_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_Bone
+Text: is_finite_strict_Bone
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_binary_normalize
+Text: is_nan_binary_normalize
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_binary_round
+Text: is_nan_binary_round
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_binary_overflow
+Text: is_nan_binary_overflow
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_Babs
+Text: is_finite_strict_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_Babs
+Text: is_finite_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Babs
+Text: is_nan_Babs
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_Bopp
+Text: is_finite_strict_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_Bopp
+Text: is_finite_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_Bopp
+Text: is_nan_Bopp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_SF_B2SF
+Text: is_nan_SF_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_SF2B
+Text: is_nan_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan_SF
+Text: is_nan_SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_nan
+Text: is_nan
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_SF_B2SF
+Text: is_finite_SF_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_SF2B
+Text: is_finite_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_SF
+Text: is_finite_SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite
+Text: is_finite
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_SF2B
+Text: is_finite_strict_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict_SF
+Text: is_finite_strict_SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#is_finite_strict
+Text: is_finite_strict
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#le_choice_mode_le
+Text: le_choice_mode_le
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#le_shr_le
+Text: le_shr_le
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#le_shr1_le
+Text: le_shr1_le
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#lift
+Text: lift
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#loc_of_shr_record_of_loc
+Text: loc_of_shr_record_of_loc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#match_FF2B
+Text: match_FF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#match_SF2B
+Text: match_SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode
+Text: mode
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_sind
+Text: mode_sind
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_rec
+Text: mode_rec
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_ind
+Text: mode_ind
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_rect
+Text: mode_rect
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_NA
+Text: mode_NA
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_UP
+Text: mode_UP
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_DN
+Text: mode_DN
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_ZR
+Text: mode_ZR
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#mode_NE
+Text: mode_NE
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#nan_pl
+Text: nan_pl
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#overflow_to_inf
+Text: overflow_to_inf
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#prec_lt_emax
+Text: prec_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#Prec_lt_emax
+Text: Prec_lt_emax
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#round_mode_choice_mode
+Text: round_mode_choice_mode
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#round_mode
+Text: round_mode
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SFnearbyint_binary
+Text: SFnearbyint_binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SFnearbyint_binary_aux
+Text: SFnearbyint_binary_aux
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2B
+Text: SF2B
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2B_B2SF_valid
+Text: SF2B_B2SF_valid
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2B_B2SF
+Text: SF2B_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2B'
+Text: SF2B'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2B'_B2SF
+Text: SF2B'_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#SF2FF
+Text: SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#SF2FF_FF2SF
+Text: SF2FF_FF2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2R
+Text: SF2R
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#SF2R_FF2SF
+Text: SF2R_FF2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#SF2R_B2SF
+Text: SF2R_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#shl_align_fexp_correct
+Text: shl_align_fexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#shl_align_fexp
+Text: shl_align_fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shl_align_fexp_correct
+Text: shl_align_fexp_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shl_align_fexp
+Text: shl_align_fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shl_align_correct
+Text: shl_align_correct
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shl_align_correct'
+Text: shl_align_correct'
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#shr_fexp_truncate
+Text: shr_fexp_truncate
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#shr_fexp
+Text: shr_fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_fexp_truncate
+Text: shr_fexp_truncate
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_fexp
+Text: shr_fexp
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_truncate
+Text: shr_truncate
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_limit
+Text: shr_limit
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_nat
+Text: shr_nat
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#shr_m_shr_record_of_loc
+Text: shr_m_shr_record_of_loc
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#sign_SF2FF
+Text: sign_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#sign_FF
+Text: sign_FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#sign_plus_overflow
+Text: sign_plus_overflow
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#sign_SF
+Text: sign_SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#snd_shl_align
+Text: snd_shl_align
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#valid_binary_B2FF
+Text: valid_binary_B2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#valid_binary_SF2FF
+Text: valid_binary_SF2FF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#valid_binary
+Text: valid_binary
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.Binary.html#valid_binary_SF
+Text: valid_binary_SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#valid_rnd_round_mode
+Text: valid_rnd_round_mode
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#valid_binary_B2SF
+Text: valid_binary_B2SF
+--------------------------------------------------
+Keyword: IEEE754.Binary
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.IEEE754.BinarySingleNaN.html#valid_binary
+Text: valid_binary
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#abs_round_le_generic
+Text: abs_round_le_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html
+Text: Flocq.Core.Generic_fmt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#abs_round_ge_generic
+Text: abs_round_ge_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#abs_lt_bpow_prec
+Text: abs_lt_bpow_prec
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#bpow
+Text: bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical
+Text: canonical
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical_unique
+Text: canonical_unique
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical_0
+Text: canonical_0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical_abs
+Text: canonical_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical_opp
+Text: canonical_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#canonical_generic_format
+Text: canonical_generic_format
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp
+Text: cexp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_round_ge
+Text: cexp_round_ge
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_ge_bpow
+Text: cexp_ge_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_le_bpow
+Text: cexp_le_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_DN
+Text: cexp_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_fexp_pos
+Text: cexp_fexp_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_fexp
+Text: cexp_fexp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_abs
+Text: cexp_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#cexp_opp
+Text: cexp_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#exp_not_FTZ
+Text: exp_not_FTZ
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Exp_not_FTZ
+Text: Exp_not_FTZ
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#exp_small_round_0
+Text: exp_small_round_0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#exp_small_round_0_pos
+Text: exp_small_round_0_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic
+Text: Generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_round_generic
+Text: generic_round_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion_ge
+Text: generic_inclusion_ge
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion_le
+Text: generic_inclusion_le
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion_le_ge
+Text: generic_inclusion_le_ge
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion
+Text: generic_inclusion
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion_lt_ge
+Text: generic_inclusion_lt_ge
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_inclusion_mag
+Text: generic_inclusion_mag
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_N_pt_DN_or_UP
+Text: generic_N_pt_DN_or_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_EM
+Text: generic_format_EM
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_satisfies_any
+Text: generic_format_satisfies_any
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_round
+Text: generic_format_round
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_round_pos
+Text: generic_format_round_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_bpow_inv
+Text: generic_format_bpow_inv
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_bpow_inv'
+Text: generic_format_bpow_inv'
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_ge_bpow
+Text: generic_format_ge_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_canonical
+Text: generic_format_canonical
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_discrete
+Text: generic_format_discrete
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_abs_inv
+Text: generic_format_abs_inv
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_abs
+Text: generic_format_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_opp
+Text: generic_format_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_F2R'
+Text: generic_format_F2R'
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_F2R
+Text: generic_format_F2R
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_bpow'
+Text: generic_format_bpow'
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_bpow
+Text: generic_format_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format_0
+Text: generic_format_0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#generic_format
+Text: generic_format
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.beta
+Text: Generic.beta
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format
+Text: Generic.Format
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Fcore_generic_round_pos.valid_rnd
+Text: Generic.Format.Fcore_generic_round_pos.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Fcore_generic_round_pos.rnd
+Text: Generic.Format.Fcore_generic_round_pos.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Fcore_generic_round_pos
+Text: Generic.Format.Fcore_generic_round_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.fexp
+Text: Generic.Format.fexp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone
+Text: Generic.Format.monotone
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_exp.valid_rnd
+Text: Generic.Format.monotone_exp.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_exp.rnd
+Text: Generic.Format.monotone_exp.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_exp.monotone_exp_
+Text: Generic.Format.monotone_exp.monotone_exp_
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_exp
+Text: Generic.Format.monotone_exp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_abs.valid_rnd
+Text: Generic.Format.monotone_abs.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_abs.rnd
+Text: Generic.Format.monotone_abs.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone_abs
+Text: Generic.Format.monotone_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone.rnd
+Text: Generic.Format.monotone.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.monotone.valid_rnd
+Text: Generic.Format.monotone.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.not_FTZ.exp_not_FTZ_
+Text: Generic.Format.not_FTZ.exp_not_FTZ_
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.not_FTZ
+Text: Generic.Format.not_FTZ
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.rndNA
+Text: Generic.Format.rndNA
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.rndN_opp
+Text: Generic.Format.rndN_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.rndN0
+Text: Generic.Format.rndN0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.round_large.valid_rnd
+Text: Generic.Format.round_large.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.round_large.rnd
+Text: Generic.Format.round_large.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.round_large
+Text: Generic.Format.round_large
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.valid_exp_
+Text: Generic.Format.valid_exp_
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Znearest
+Text: Generic.Format.Znearest
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Znearest.choice
+Text: Generic.Format.Znearest.choice
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Zround_opp.valid_rnd
+Text: Generic.Format.Zround_opp.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Zround_opp.rnd
+Text: Generic.Format.Zround_opp.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Format.Zround_opp
+Text: Generic.Format.Zround_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion
+Text: Generic.Inclusion
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.fexp1
+Text: Generic.Inclusion.fexp1
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.fexp2
+Text: Generic.Inclusion.fexp2
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.rnd
+Text: Generic.Inclusion.rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.valid_rnd
+Text: Generic.Inclusion.valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.valid_exp2
+Text: Generic.Inclusion.valid_exp2
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Generic.Inclusion.valid_exp1
+Text: Generic.Inclusion.valid_exp1
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#lt_cexp
+Text: lt_cexp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#lt_cexp_pos
+Text: lt_cexp_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mag_round_ge
+Text: mag_round_ge
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mag_DN
+Text: mag_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mag_round
+Text: mag_round
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mag_round_ZR
+Text: mag_round_ZR
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mag_generic_gt
+Text: mag_generic_gt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mantissa_UP_small_pos
+Text: mantissa_UP_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mantissa_DN_small_pos
+Text: mantissa_DN_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#mantissa_small_pos
+Text: mantissa_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#monotone_exp_not_FTZ
+Text: monotone_exp_not_FTZ
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#monotone_exp
+Text: monotone_exp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Monotone_exp
+Text: Monotone_exp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#rndDN
+Text: rndDN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#rndNA
+Text: rndNA
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#rndNA_opp
+Text: rndNA_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#rndUP
+Text: rndUP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#rndZR
+Text: rndZR
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round
+Text: round
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_NA_opp
+Text: round_NA_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N_small
+Text: round_N_small
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N0_opp
+Text: round_N0_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N_opp
+Text: round_N_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N0_pt
+Text: round_N0_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_NA_pt
+Text: round_NA_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N_small_pos
+Text: round_N_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N_middle
+Text: round_N_middle
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_N_pt
+Text: round_N_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_large_pos_ge_bpow
+Text: round_large_pos_ge_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_UP_small_pos
+Text: round_UP_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_DN_UP_lt
+Text: round_DN_UP_lt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_DN_small_pos
+Text: round_DN_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_pt
+Text: round_ZR_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_UP_pt
+Text: round_UP_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_DN_pt
+Text: round_DN_pt
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_AW_DN
+Text: round_AW_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_AW_UP
+Text: round_AW_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_UP
+Text: round_ZR_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_DN
+Text: round_ZR_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_AW_abs
+Text: round_AW_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_AW_opp
+Text: round_AW_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_abs
+Text: round_ZR_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_opp
+Text: round_ZR_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_UP_opp
+Text: round_UP_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_DN_opp
+Text: round_DN_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_bounded_large
+Text: round_bounded_large
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_abs_abs
+Text: round_abs_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_le_generic
+Text: round_le_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ge_generic
+Text: round_ge_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_le
+Text: round_le
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ZR_or_AW
+Text: round_ZR_or_AW
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_DN_or_UP
+Text: round_DN_or_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_opp
+Text: round_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_ext
+Text: round_ext
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_0
+Text: round_0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_generic
+Text: round_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_le_pos
+Text: round_le_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_bounded_small_pos
+Text: round_bounded_small_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#round_bounded_large_pos
+Text: round_bounded_large_pos
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_DN
+Text: scaled_mantissa_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_lt_bpow
+Text: scaled_mantissa_lt_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_lt_1
+Text: scaled_mantissa_lt_1
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_abs
+Text: scaled_mantissa_abs
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_opp
+Text: scaled_mantissa_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_0
+Text: scaled_mantissa_0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_mult_bpow
+Text: scaled_mantissa_mult_bpow
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa_generic
+Text: scaled_mantissa_generic
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#scaled_mantissa
+Text: scaled_mantissa
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#subnormal_exponent
+Text: subnormal_exponent
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_N0
+Text: valid_rnd_N0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_NA
+Text: valid_rnd_NA
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_N
+Text: valid_rnd_N
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_AW
+Text: valid_rnd_AW
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_ZR
+Text: valid_rnd_ZR
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_UP
+Text: valid_rnd_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_DN
+Text: valid_rnd_DN
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_rnd_opp
+Text: valid_rnd_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Valid_rnd
+Text: Valid_rnd
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_exp_large'
+Text: valid_exp_large'
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_exp_large
+Text: valid_exp_large
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#valid_exp
+Text: valid_exp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Valid_exp
+Text: Valid_exp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest
+Text: Znearest
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#ZnearestA
+Text: ZnearestA
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_opp
+Text: Znearest_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_imp
+Text: Znearest_imp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_half
+Text: Znearest_half
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_N_strict
+Text: Znearest_N_strict
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_le_ceil
+Text: Znearest_le_ceil
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_ge_floor
+Text: Znearest_ge_floor
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest_DN_or_UP
+Text: Znearest_DN_or_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Znearest0
+Text: Znearest0
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Zrnd_opp
+Text: Zrnd_opp
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Zrnd_ZR_or_AW
+Text: Zrnd_ZR_or_AW
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Zrnd_DN_or_UP
+Text: Zrnd_DN_or_UP
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Zrnd_IZR
+Text: Zrnd_IZR
+--------------------------------------------------
+Keyword: Generic_fmt
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Generic_fmt.html#Zrnd_le
+Text: Zrnd_le
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Def
+Text: Def
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html
+Text: Flocq.Core.Defs
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Def.beta
+Text: Def.beta
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Fexp
+Text: Fexp
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#float
+Text: float
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Fnum
+Text: Fnum
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#F2R
+Text: F2R
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#RND
+Text: RND
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_N0_pt
+Text: Rnd_N0_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_NA_pt
+Text: Rnd_NA_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_NG_pt
+Text: Rnd_NG_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_N_pt
+Text: Rnd_N_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_ZR_pt
+Text: Rnd_ZR_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_UP_pt
+Text: Rnd_UP_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#Rnd_DN_pt
+Text: Rnd_DN_pt
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#round_pred
+Text: round_pred
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#round_pred_monotone
+Text: round_pred_monotone
+--------------------------------------------------
+Keyword: Defs
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Defs.html#round_pred_total
+Text: round_pred_total
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#bpow
+Text: bpow
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html
+Text: Flocq.Core.Float_prop
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#bpow_le_F2R_m1
+Text: bpow_le_F2R_m1
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#bpow_le_F2R
+Text: bpow_le_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#eq_0_F2R
+Text: eq_0_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#eq_F2R
+Text: eq_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#float_distribution_pos
+Text: float_distribution_pos
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Float_prop.beta
+Text: Float_prop.beta
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Float_prop
+Text: Float_prop
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Fnum_le_0
+Text: Fnum_le_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Fnum_ge_0
+Text: Fnum_ge_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_prec_normalize
+Text: F2R_prec_normalize
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_change_exp
+Text: F2R_change_exp
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_lt_bpow
+Text: F2R_lt_bpow
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_p1_le_bpow
+Text: F2R_p1_le_bpow
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_bpow
+Text: F2R_bpow
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_neq_0
+Text: F2R_neq_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_lt_0
+Text: F2R_lt_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_gt_0
+Text: F2R_gt_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_le_0
+Text: F2R_le_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_ge_0
+Text: F2R_ge_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_0
+Text: F2R_0
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_cond_Zopp
+Text: F2R_cond_Zopp
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_Zopp
+Text: F2R_Zopp
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_Zabs
+Text: F2R_Zabs
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_eq
+Text: F2R_eq
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_lt
+Text: F2R_lt
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#F2R_le
+Text: F2R_le
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#ge_0_F2R
+Text: ge_0_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#gt_0_F2R
+Text: gt_0_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#le_0_F2R
+Text: le_0_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#le_F2R
+Text: le_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#lt_0_F2R
+Text: lt_0_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#lt_F2R
+Text: lt_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#mag_F2R_bounds_Zdigits
+Text: mag_F2R_bounds_Zdigits
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#mag_F2R_Zdigits
+Text: mag_F2R_Zdigits
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#mag_F2R
+Text: mag_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#mag_F2R_bounds
+Text: mag_F2R_bounds
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Rcompare_F2R
+Text: Rcompare_F2R
+--------------------------------------------------
+Keyword: Float_prop
+URL: https://flocq.gitlabpages.inria.fr/flocq/html/Flocq.Core.Float_prop.html#Zdigits_mag
+Text: Zdigits_mag
+--------------------------------------------------

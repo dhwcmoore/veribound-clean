@@ -1,0 +1,24 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "ocaml": true,
+    "coq": true,
+    "markdown": true
+  },
+  "github.copilot.advanced": {
+    "length": 3000,
+    "temperature": 0.1,
+    "top_p": 1
+  },
+  "ocaml.sandbox": {
+    "kind": "opam",
+    "switch": "default"
+  },
+  "coq.format.enable": true,
+  "files.associations": {
+    "*.v": "coq",
+    "*.yaml": "yaml",
+    "*.yml": "yaml"
+  }
+}

@@ -1,0 +1,3 @@
+-Q . Veribound
+-Q $(opam var lib)/coq/user-contrib/Flocq Flocq
+FlocqClassification.v

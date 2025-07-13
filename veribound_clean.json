@@ -1,0 +1,182 @@
+{
+  "seal_hash": "0c74a097a347d970",
+  "irrational_signature": 5096036770455744.0,
+  "results": [
+    {
+      "input": "7.58",
+      "domain": "domains/nuclear_reactor_protection.yaml",
+      "category": "Normal_Operation_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "336fc620",
+      "region_fingerprint": "2fde29a1",
+      "boundary_hash": "29503003",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "2.1",
+      "domain": "domains/nuclear_radiation_limits.yaml",
+      "category": "Normal_Operation_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "00af20ed",
+      "region_fingerprint": "01f52d88",
+      "boundary_hash": "22b5511f",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "9.2",
+      "domain": "domains/nuclear_emergency_action_levels.yaml",
+      "category": "Normal_Operation_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "05129a49",
+      "region_fingerprint": "3bd480de",
+      "boundary_hash": "0a963a7c",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "2.5",
+      "domain": "domains/pharma_dose_safety.yaml",
+      "category": "Maximum_Tolerated_CAUTION_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "312fd23b",
+      "region_fingerprint": "0ab5fb92",
+      "boundary_hash": "0ead7c5b",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "120.5",
+      "domain": "domains/blood_pressure.yaml",
+      "category": "Normal_Operation_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "0373e127",
+      "region_fingerprint": "3527b270",
+      "boundary_hash": "32ae7876",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "6.8",
+      "domain": "domains/diabetes.yaml",
+      "category": "Toxic_Dose_DANGEROUS_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "335e56e9",
+      "region_fingerprint": "111a342e",
+      "boundary_hash": "2732423b",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "98.6",
+      "domain": "domains/medical_device_performance.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "01ca9850",
+      "region_fingerprint": "231ff36a",
+      "boundary_hash": "3caccac1",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "45.2",
+      "domain": "domains/clinical_trial_safety.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "32a73ad0",
+      "region_fingerprint": "159a9dfd",
+      "boundary_hash": "12dba3a6",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "12.8",
+      "domain": "domains/ccar_capital_ratios.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "3d7dfb8c",
+      "region_fingerprint": "18754701",
+      "boundary_hash": "3a244e70",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "3.2",
+      "domain": "domains/ccar_stress_testing.yaml",
+      "category": "Maximum_Tolerated_CAUTION_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "093d0161",
+      "region_fingerprint": "280a1e95",
+      "boundary_hash": "35364e95",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "8.5",
+      "domain": "domains/basel_corporate.yaml",
+      "category": "Toxic_Dose_DANGEROUS_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "186a5bd2",
+      "region_fingerprint": "2ed16ad0",
+      "boundary_hash": "0674e62c",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "15.7",
+      "domain": "domains/frtb_market_risk.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "30927bdc",
+      "region_fingerprint": "24c898bb",
+      "boundary_hash": "03d1ba53",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "110.2",
+      "domain": "domains/liquidity_risk_lcr_nsfr.yaml",
+      "category": "Normal_Operation_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "154e60a2",
+      "region_fingerprint": "0e30b0f3",
+      "boundary_hash": "2473f6fc",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "0.05",
+      "domain": "domains/mifid2_best_execution.yaml",
+      "category": "Public_Exposure_SAFE_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "32eccf9f",
+      "region_fingerprint": "38ff478d",
+      "boundary_hash": "10af96ce",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "85.3",
+      "domain": "domains/aqi.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "0843f241",
+      "region_fingerprint": "3270645b",
+      "boundary_hash": "1df78806",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    },
+    {
+      "input": "50000.0",
+      "domain": "domains/aml_cash.yaml",
+      "category": "Lethal_Dose_EMERGENCY_VERIFIED",
+      "validation_level": "1",
+      "classifier_hash": "20fdfe18",
+      "region_fingerprint": "36bbc41f",
+      "boundary_hash": "01f48bcb",
+      "timestamp": "1751930853",
+      "guarantees": "Complete + Stable"
+    }
+  ]
+}

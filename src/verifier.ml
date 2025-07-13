@@ -1,3 +1,5 @@
+(flags (:standard -w -20))
+
 (* src/verifier.ml *)
 
 open Yojson.Basic.Util
@@ -9,7 +11,7 @@ let verify_seal_from_file (filename : string) : (bool * string) =
   let signature = json |> member "irrational_signature" |> to_float in
   let results_json = json |> member "results" |> to_list in
 
-  let results : result_entry list = List.map (fun item ->
+  let results : Seal.Irrational_seal.result_entry list = List.map (fun item ->
     {
       category = item |> member "category" |> to_string;
       lower = item |> member "lower" |> to_float;
@@ -23,4 +25,5 @@ let verify_seal_from_file (filename : string) : (bool * string) =
     seal_hash signature (List.length results)
   in
 
-  (true, summary)
+  let is_valid = Veribound_hash_seal.verify_file filename in
+  (is_valid, summary ^ "\nVerification: " ^ (if is_valid then "✅ VALID" else "❌ TAMPERED"))

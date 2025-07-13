@@ -1,4 +1,4 @@
-# dune exec test/test_verifier.exe
+# dune build
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location: /home/duston/.cache/dune/db
@@ -13,4 +13,324 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ /home/duston/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_d71b81_output
+$ /home/duston/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_0aa23f_output
+# Promoting "_build/default/veribound.opam" to "veribound.opam"
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I lib/.veribound.objs/byte -no-alias-deps -opaque -o lib/.veribound.objs/byte/veribound.cmo -c -impl lib/veribound.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/veribound.cma lib/.veribound.objs/byte/veribound.cmo)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/seal/.seal.objs/byte -no-alias-deps -opaque -o src/seal/.seal.objs/byte/seal.cmo -c -impl src/seal/seal.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I lib/.veribound.objs/byte -I lib/.veribound.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o lib/.veribound.objs/native/veribound.cmx -c -impl lib/veribound.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/seal/irrational_seal.ml) > _build/default/src/seal/.seal.objs/seal__Irrational_seal.impl.d
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I src/seal/.seal.objs/byte -I src/seal/.seal.objs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o src/seal/.seal.objs/native/seal.cmx -c -impl src/seal/seal.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamldep.opt -modules -intf src/seal/irrational_seal.mli) > _build/default/src/seal/.seal.objs/seal__Irrational_seal.intf.d
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/verifier/verifier_exec.ml) > _build/default/src/verifier/.verifier_exec.eobjs/dune__exe__Verifier_exec.impl.d
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -20 -g -bin-annot -I src/veribound_hash_seal/.veribound_hash_seal.objs/byte -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -no-alias-deps -opaque -o src/veribound_hash_seal/.veribound_hash_seal.objs/byte/veribound_hash_seal.cmi -c -intf src/veribound_hash_seal/veribound_hash_seal.mli)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o lib/veribound.cmxa lib/.veribound.objs/native/veribound.cmx)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamldep.opt -modules -impl src/verifier/verifier.ml) > _build/default/src/verifier/.verifier_exec.eobjs/dune__exe__Verifier.impl.d
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/seal/.seal.objs/byte -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -no-alias-deps -opaque -open Seal -o src/seal/.seal.objs/byte/seal__Irrational_seal.cmi -c -intf src/seal/irrational_seal.mli)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I test/.test_valid.eobjs/byte -I /home/duston/.opam/4.14.0/lib/digestif/c -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -I src/veribound_hash_seal/.veribound_hash_seal.objs/byte -no-alias-deps -opaque -o test/.test_valid.eobjs/byte/dune__exe__Test_valid.cmi -c -intf test/test_valid.mli)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I src/verifier/.verifier_exec.eobjs/byte -no-alias-deps -opaque -o src/verifier/.verifier_exec.eobjs/byte/dune__exe.cmo -c -impl src/verifier/.verifier_exec.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamldep.opt -modules -intf src/verifier/verifier_exec.mli) > _build/default/src/verifier/.verifier_exec.eobjs/dune__exe__Verifier_exec.intf.d
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/seal/.seal.objs/byte -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -intf-suffix .ml -no-alias-deps -opaque -open Seal -o src/seal/.seal.objs/byte/seal__Irrational_seal.cmo -c -impl src/seal/irrational_seal.ml)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I test/.test_valid.eobjs/byte -I test/.test_valid.eobjs/native -I /home/duston/.opam/4.14.0/lib/digestif/c -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -I src/veribound_hash_seal/.veribound_hash_seal.objs/byte -I src/veribound_hash_seal/.veribound_hash_seal.objs/native -intf-suffix .ml -no-alias-deps -opaque -o test/.test_valid.eobjs/native/dune__exe__Test_valid.cmx -c -impl test/test_valid.ml)
+> File "test/test_valid.ml", line 7, characters 21-53:
+> 7 |   let correct_seal = Veribound_hash_seal.compute_seal content in
+>                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error: Unbound value Veribound_hash_seal.compute_seal
+[2]
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I src/verifier/.verifier_exec.eobjs/byte -I src/verifier/.verifier_exec.eobjs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o src/verifier/.verifier_exec.eobjs/native/dune__exe.cmx -c -impl src/verifier/.verifier_exec.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o src/seal/seal.cma src/seal/.seal.objs/byte/seal.cmo src/seal/.seal.objs/byte/seal__Irrational_seal.cmo)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I src/seal/.seal.objs/byte -I src/seal/.seal.objs/native -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -intf-suffix .ml -no-alias-deps -opaque -open Seal -o src/seal/.seal.objs/native/seal__Irrational_seal.cmx -c -impl src/seal/irrational_seal.ml)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/verifier/.verifier_exec.eobjs/byte -I /home/duston/.opam/4.14.0/lib/digestif/c -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -I src/seal/.seal.objs/byte -no-alias-deps -opaque -open Dune__exe -o src/verifier/.verifier_exec.eobjs/byte/dune__exe__Verifier.cmo -c -impl src/verifier/verifier.ml)
+> File "src/verifier/verifier.ml", line 1, characters 5-20:
+> 1 | open Irrational_seal
+>          ^^^^^^^^^^^^^^^
+> Error: Unbound module Irrational_seal
+[2]
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I src/verifier/.verifier_exec.eobjs/byte -I /home/duston/.opam/4.14.0/lib/digestif/c -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -I src/seal/.seal.objs/byte -no-alias-deps -opaque -open Dune__exe -o src/verifier/.verifier_exec.eobjs/byte/dune__exe__Verifier_exec.cmi -c -intf src/verifier/verifier_exec.mli)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I lib -o lib/veribound.cmxs lib/veribound.cmxa)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -a -o src/seal/seal.cmxa src/seal/.seal.objs/native/seal.cmx src/seal/.seal.objs/native/seal__Irrational_seal.cmx)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -20 -g -bin-annot -I src/veribound_hash_seal/.veribound_hash_seal.objs/byte -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -intf-suffix .ml -no-alias-deps -opaque -o src/veribound_hash_seal/.veribound_hash_seal.objs/byte/veribound_hash_seal.cmo -c -impl src/veribound_hash_seal/veribound_hash_seal.ml)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 25, characters 0-17:
+> 25 | type 'a sig0 = 'a
+>      ^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type sig0.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 683, characters 0-42:
+> 683 | type cReal_appart = (cRealLt, cRealLt) sum
+>       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type cReal_appart.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 916, characters 2-32:
+> 916 |   val coq_Rabst : cReal -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rabst.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 918, characters 2-32:
+> 918 |   val coq_Rrepr : coq_R -> cReal
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rrepr.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 920, characters 2-20:
+> 920 |   val coq_R0 : coq_R
+>         ^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R0.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 922, characters 2-20:
+> 922 |   val coq_R1 : coq_R
+>         ^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R1.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 924, characters 2-41:
+> 924 |   val coq_Rplus : coq_R -> coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rplus.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 926, characters 2-41:
+> 926 |   val coq_Rmult : coq_R -> coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rmult.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 928, characters 2-31:
+> 928 |   val coq_Ropp : coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Ropp.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 947, characters 6-16:
+> 947 |   let coq_Rquot1 =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rquot1.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 952, characters 6-16:
+> 952 |   let coq_Rquot2 =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rquot2.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 980, characters 2-19:
+> 980 |   type coq_Rlt = __
+>         ^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type coq_Rlt.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 984, characters 6-16:
+> 984 |   let coq_R0_def =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R0_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 989, characters 6-16:
+> 989 |   let coq_R1_def =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R1_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 994, characters 6-19:
+> 994 |   let coq_Rplus_def =
+>             ^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rplus_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 999, characters 6-19:
+> 999 |   let coq_Rmult_def =
+>             ^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rmult_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1004, characters 6-18:
+> 1004 |   let coq_Ropp_def =
+>              ^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Ropp_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1009, characters 6-17:
+> 1009 |   let coq_Rlt_def =
+>              ^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rlt_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1085, characters 2-65:
+> 1085 |   val coq_Rinv : RbaseSymbolsImpl.coq_R -> RbaseSymbolsImpl.coq_R
+>          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rinv.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1100, characters 6-18:
+> 1100 |   let coq_Rinv_def =
+>              ^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rinv_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1180, characters 0-14:
+> 1180 | type radix = z
+>        ^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type radix.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1228, characters 0-20:
+> 1228 | | B754_zero0 of bool
+>        ^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_zero0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1229, characters 0-24:
+> 1229 | | B754_infinity0 of bool
+>        ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_infinity0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1230, characters 0-30:
+> 1230 | | B754_nan0 of bool * positive
+>        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_nan0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1231, characters 0-37:
+> 1231 | | B754_finite0 of bool * positive * z
+>        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_finite0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1256, characters 26-45:
+> 1256 | type verifiedBoundary = { lower_rational : q; upper_rational : q;
+>                                  ^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field lower_rational.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1256, characters 46-65:
+> 1256 | type verifiedBoundary = { lower_rational : q; upper_rational : q;
+>                                                      ^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field upper_rational.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1260, characters 24-48:
+> 1260 | type verifiedDomain = { domain_name : char list;
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field domain_name.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1261, characters 24-53:
+> 1261 |                         measurement_unit : char list;
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field measurement_unit.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1263, characters 24-60:
+> 1263 |                         global_bounds : (float64 * float64);
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field global_bounds.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1264, characters 24-71:
+> 1264 |                         domain_precision_bound : RbaseSymbolsImpl.coq_R }
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field domain_precision_bound.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1303, characters 4-18:
+> 1303 | let classify_flocq domain input =
+>            ^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value classify_flocq.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1312, characters 4-27:
+> 1312 | let boundary_distance_flocq x b =
+>            ^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value boundary_distance_flocq.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1322, characters 4-26:
+> 1322 | let confidence_level_flocq _ _ =
+>            ^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value confidence_level_flocq.
+[2]
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -shared -linkall -I src/seal -o src/seal/seal.cmxs src/seal/seal.cmxa)
+$ (cd _build/default && /home/duston/.opam/4.14.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -20 -g -I src/veribound_hash_seal/.veribound_hash_seal.objs/byte -I src/veribound_hash_seal/.veribound_hash_seal.objs/native -I /home/duston/.opam/4.14.0/lib/digestif -I /home/duston/.opam/4.14.0/lib/eqaf -I /home/duston/.opam/4.14.0/lib/seq -I /home/duston/.opam/4.14.0/lib/yojson -intf-suffix .ml -no-alias-deps -opaque -o src/veribound_hash_seal/.veribound_hash_seal.objs/native/veribound_hash_seal.cmx -c -impl src/veribound_hash_seal/veribound_hash_seal.ml)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 25, characters 0-17:
+> 25 | type 'a sig0 = 'a
+>      ^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type sig0.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 683, characters 0-42:
+> 683 | type cReal_appart = (cRealLt, cRealLt) sum
+>       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type cReal_appart.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 916, characters 2-32:
+> 916 |   val coq_Rabst : cReal -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rabst.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 918, characters 2-32:
+> 918 |   val coq_Rrepr : coq_R -> cReal
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rrepr.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 920, characters 2-20:
+> 920 |   val coq_R0 : coq_R
+>         ^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R0.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 922, characters 2-20:
+> 922 |   val coq_R1 : coq_R
+>         ^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R1.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 924, characters 2-41:
+> 924 |   val coq_Rplus : coq_R -> coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rplus.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 926, characters 2-41:
+> 926 |   val coq_Rmult : coq_R -> coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rmult.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 928, characters 2-31:
+> 928 |   val coq_Ropp : coq_R -> coq_R
+>         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Ropp.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 947, characters 6-16:
+> 947 |   let coq_Rquot1 =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rquot1.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 952, characters 6-16:
+> 952 |   let coq_Rquot2 =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rquot2.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 980, characters 2-19:
+> 980 |   type coq_Rlt = __
+>         ^^^^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type coq_Rlt.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 984, characters 6-16:
+> 984 |   let coq_R0_def =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R0_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 989, characters 6-16:
+> 989 |   let coq_R1_def =
+>             ^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_R1_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 994, characters 6-19:
+> 994 |   let coq_Rplus_def =
+>             ^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rplus_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 999, characters 6-19:
+> 999 |   let coq_Rmult_def =
+>             ^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rmult_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1004, characters 6-18:
+> 1004 |   let coq_Ropp_def =
+>              ^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Ropp_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1009, characters 6-17:
+> 1009 |   let coq_Rlt_def =
+>              ^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rlt_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1085, characters 2-65:
+> 1085 |   val coq_Rinv : RbaseSymbolsImpl.coq_R -> RbaseSymbolsImpl.coq_R
+>          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rinv.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1100, characters 6-18:
+> 1100 |   let coq_Rinv_def =
+>              ^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value coq_Rinv_def.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1180, characters 0-14:
+> 1180 | type radix = z
+>        ^^^^^^^^^^^^^^
+> Error (warning 34 [unused-type-declaration]): unused type radix.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1228, characters 0-20:
+> 1228 | | B754_zero0 of bool
+>        ^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_zero0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1229, characters 0-24:
+> 1229 | | B754_infinity0 of bool
+>        ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_infinity0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1230, characters 0-30:
+> 1230 | | B754_nan0 of bool * positive
+>        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_nan0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1231, characters 0-37:
+> 1231 | | B754_finite0 of bool * positive * z
+>        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 37 [unused-constructor]): constructor B754_finite0 is never used to build values.
+> (However, this constructor appears in patterns.)
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1256, characters 26-45:
+> 1256 | type verifiedBoundary = { lower_rational : q; upper_rational : q;
+>                                  ^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field lower_rational.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1256, characters 46-65:
+> 1256 | type verifiedBoundary = { lower_rational : q; upper_rational : q;
+>                                                      ^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field upper_rational.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1260, characters 24-48:
+> 1260 | type verifiedDomain = { domain_name : char list;
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field domain_name.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1261, characters 24-53:
+> 1261 |                         measurement_unit : char list;
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field measurement_unit.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1263, characters 24-60:
+> 1263 |                         global_bounds : (float64 * float64);
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field global_bounds.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1264, characters 24-71:
+> 1264 |                         domain_precision_bound : RbaseSymbolsImpl.coq_R }
+>                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): unused record field domain_precision_bound.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1303, characters 4-18:
+> 1303 | let classify_flocq domain input =
+>            ^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value classify_flocq.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1312, characters 4-27:
+> 1312 | let boundary_distance_flocq x b =
+>            ^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value boundary_distance_flocq.
+> File "src/veribound_hash_seal/veribound_hash_seal.ml", line 1322, characters 4-26:
+> 1322 | let confidence_level_flocq _ _ =
+>            ^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value confidence_level_flocq.
+[2]

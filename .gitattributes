@@ -1,0 +1,5 @@
+*.ml linguist-language=OCaml
+*.mli linguist-language=OCaml  
+*.v linguist-language=Coq
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML

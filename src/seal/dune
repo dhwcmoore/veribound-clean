@@ -1,0 +1,4 @@
+(library
+ (name seal)
+ (modules irrational_seal)
+ (libraries yojson digestif))
