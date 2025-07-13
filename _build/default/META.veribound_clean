@@ -1,0 +1,18 @@
+package "hash_seal" (
+  directory = "hash_seal"
+  description = ""
+  requires = "digestif"
+  archive(byte) = "veribound_hash_seal.cma"
+  archive(native) = "veribound_hash_seal.cmxa"
+  plugin(byte) = "veribound_hash_seal.cma"
+  plugin(native) = "veribound_hash_seal.cmxs"
+)
+package "verifier" (
+  directory = "verifier"
+  description = ""
+  requires = "veribound_clean.hash_seal yojson"
+  archive(byte) = "verifier.cma"
+  archive(native) = "verifier.cmxa"
+  plugin(byte) = "verifier.cma"
+  plugin(native) = "verifier.cmxs"
+)

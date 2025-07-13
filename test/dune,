@@ -1,0 +1,4 @@
+(executables
+ (names test_verifier)
+ (modules test_verifier)
+ (libraries veribound_hash_seal verifier yojson))

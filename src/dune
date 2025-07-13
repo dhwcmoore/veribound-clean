@@ -1,0 +1,11 @@
+(library
+ (name veribound_hash_seal)
+ (public_name veribound_clean.hash_seal)
+ (modules veribound_hash_seal)
+ (libraries digestif))
+
+(library
+ (name verifier)
+ (public_name veribound_clean.verifier)
+ (modules verifier)
+ (libraries veribound_hash_seal yojson))

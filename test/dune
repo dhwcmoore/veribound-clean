@@ -1,0 +1,4 @@
+(executables
+ (names test_verifier)
+ (modules test_verifier)
+ (libraries verifier yojson digestif))
