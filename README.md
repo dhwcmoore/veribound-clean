@@ -1,16 +1,3 @@
-Great. Now that the logo is in place, let’s generate a **formal, professional `README.md`** with branding, usage instructions, and verifier module documentation.
-
----
-
-### ✅ New `README.md` for `veribound-clean`
-
-Save this as `README.md` in the root of your project:
-
-```markdown
-<p align="center">
-  <img src="docs/verisys-logo.png" alt="VeriSys Logo" width="300"/>
-</p>
-
 # VeriBound
 
 **_Where Data Compliance Meets Mathematical Certainty_**
