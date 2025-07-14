@@ -1,4 +1,3 @@
-(executable
- (name test_valid)
- (modules test_valid)
- (libraries yojson veribound_hash_seal))
+(test
+ (name hash_seal_core_test)
+ (libraries veribound_hash_seal yojson digestif))

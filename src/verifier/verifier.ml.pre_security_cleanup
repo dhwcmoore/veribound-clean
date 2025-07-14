@@ -1,0 +1,170 @@
+(* src/verifier.ml *)
+
+open Yojson.Basic.Util
+(* Make sure the Veribound_hash_seal module is available in your project.
+   If it is defined in another file, for example veribound_hash_seal.ml,
+   ensure it is compiled and included in your build system. *)
+
+type result_entry = {
+  lower : float;
+  upper : float;
+  verdict : string;
+}
+
+let verify_seal_from_file (filename : string) : (bool * string) =
+  let json = Yojson.Basic.from_file filename in
+  let seal_hash = json |> member "seal_hash" |> to_string in
+  let signature = json |> member "irrational_signature" |> to_float in
+  let results_json = json |> member "results" |> to_list in
+
+  let results : result_entry list = List.map (fun item ->
+    {
+      lower = item |> member "lower" |> to_float;
+      upper = item |> member "upper" |> to_float;
+      verdict = item |> member "verdict" |> to_string;
+    }
+  ) results_json in
+
+  let summary = Printf.sprintf
+    "Seal: %s\nSignature: %.16f\nEntries: %d"
+    seal_hash signature (List.length results)
+  in
+
+  let is_valid = Veribound_hash_seal.verify_file filename in
+  (is_valid, summary ^ "\nVerification: " ^ (if is_valid then "✅ VALID" else "❌ TAMPERED"))
+
+let compute_seal (json : Yojson.Safe.t) : string =
+  let json_str = Yojson.Safe.to_string json in
+  let hash = Digestif.SHA256.digest_string json_str in
+  Digestif.SHA256.to_hex hash
+
+
+(* Enhanced verification for operational control *)
+type verification_level = 
+  | Basic_Seal
+  | Operational_Control of string (* irrational number *)
+
+type enhanced_verification_result = {
+  basic_result : bool * string;
+  level : verification_level;
+  timestamp : float;
+  display_color : string;
+}
+
+let generate_operational_irrational session_id file_hash =
+  let base = session_id ^ file_hash ^ (string_of_float (Unix.time ())) in
+  let hash = Digest.string base |> Digest.to_hex in
+  let rec build_continued_fraction s pos acc =
+    if pos >= String.length s then acc ^ "...)"
+    else
+      let c = s.[pos] in
+      let digit = if c >= '0' && c <= '9' then int_of_char c - int_of_char '0'
+                  else (int_of_char c - int_of_char 'a' + 10) mod 10 in
+      let digit = max 1 (digit + 1) in
+      build_continued_fraction s (pos + 1) (acc ^ "+" ^ string_of_int digit ^ "/")
+  in
+  "√(1" ^ build_continued_fraction hash 0 ""
+
+let is_operational_control_active () =
+  Sys.file_exists ".operational_control_active"
+
+let verify_with_enhanced_control filename =
+  let basic_result = verify_seal_from_file filename in
+  let level = 
+    if fst basic_result && is_operational_control_active () then
+      let session = try 
+        let ic = open_in ".operational_session_id" in
+        let s = input_line ic in close_in ic; s
+      with _ -> "default" in
+      let hash = Digest.file filename |> Digest.to_hex in
+      Operational_Control (generate_operational_irrational session hash)
+    else Basic_Seal
+  in
+  let color = match level with
+    | Basic_Seal -> "blue"
+    | Operational_Control _ -> "green" 
+  in
+  {
+    basic_result = basic_result;
+    level = level;
+    timestamp = Unix.time ();
+    display_color = color;
+  }
+
+let start_operational_session operator_id =
+  let oc1 = open_out ".operational_control_active" in
+  output_string oc1 (string_of_float (Unix.time ())); close_out oc1;
+  let oc2 = open_out ".operational_session_id" in  
+  output_string oc2 (operator_id ^ "_" ^ string_of_float (Unix.time ())); close_out oc2;
+  print_endline "🔐 OPERATIONAL CONTROL ACTIVE - Enhanced verification with irrational credentials enabled"
+
+let end_operational_session () =
+  (try Sys.remove ".operational_control_active" with _ -> ());
+  (try Sys.remove ".operational_session_id" with _ -> ());
+  print_endline "🔓 Operational control ended - Basic verification mode"
+
+
+(* Enhanced verification for operational control *)
+type verification_level = 
+  | Basic_Seal
+  | Operational_Control of string (* irrational number *)
+
+type enhanced_verification_result = {
+  basic_result : bool * string;
+  level : verification_level;
+  timestamp : float;
+  display_color : string;
+}
+
+let generate_operational_irrational session_id file_hash =
+  let base = session_id ^ file_hash ^ (string_of_float (Unix.time ())) in
+  let hash = Digest.string base |> Digest.to_hex in
+  let rec build_continued_fraction s pos acc =
+    if pos >= String.length s then acc ^ "...)"
+    else
+      let c = s.[pos] in
+      let digit = if c >= '0' && c <= '9' then int_of_char c - int_of_char '0'
+                  else (int_of_char c - int_of_char 'a' + 10) mod 10 in
+      let digit = max 1 (digit + 1) in
+      build_continued_fraction s (pos + 1) (acc ^ "+" ^ string_of_int digit ^ "/")
+  in
+  "√(1" ^ build_continued_fraction hash 0 ""
+
+let is_operational_control_active () =
+  Sys.file_exists ".operational_control_active"
+
+let verify_with_enhanced_control filename =
+  let basic_result = verify_seal_from_file filename in
+  let level = 
+    if fst basic_result && is_operational_control_active () then
+      let session = try 
+        let ic = open_in ".operational_session_id" in
+        let s = input_line ic in close_in ic; s
+      with _ -> "default" in
+      let hash = Digest.file filename |> Digest.to_hex in
+      Operational_Control (generate_operational_irrational session hash)
+    else Basic_Seal
+  in
+  let color = match level with
+    | Basic_Seal -> "blue"
+    | Operational_Control _ -> "green" 
+  in
+  {
+    basic_result = basic_result;
+    level = level;
+    timestamp = Unix.time ();
+    display_color = color;
+  }
+
+let start_operational_session operator_id =
+  let oc1 = open_out ".operational_control_active" in
+  output_string oc1 (string_of_float (Unix.time ())); close_out oc1;
+  let oc2 = open_out ".operational_session_id" in  
+  output_string oc2 (operator_id ^ "_" ^ string_of_float (Unix.time ())); close_out oc2;
+  print_endline "🔐 OPERATIONAL CONTROL ACTIVE - Enhanced verification with irrational credentials enabled"
+
+let end_operational_session () =
+  (try Sys.remove ".operational_control_active" with _ -> ());
+  (try Sys.remove ".operational_session_id" with _ -> ());
+  print_endline "🔓 Operational control ended - Basic verification mode"
+

@@ -1,4 +1,0 @@
-(lang dune 3.19)
-(name veribound_clean)
-(sections (lib .) (doc ../../doc/veribound_clean))
-(files (lib (META dune-package opam)) (doc (README.md)))

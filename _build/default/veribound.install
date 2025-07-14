@@ -1,8 +1,0 @@
-lib: [
-  "_build/install/default/lib/veribound/META"
-  "_build/install/default/lib/veribound/dune-package"
-  "_build/install/default/lib/veribound/opam"
-]
-doc: [
-  "_build/install/default/doc/veribound/README.md"
-]

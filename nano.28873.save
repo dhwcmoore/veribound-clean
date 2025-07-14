@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "veribound"
+version: "0.1"
+maintainer: "dhwcmoore@gmail.com"
+authors: ["Duston Moore"]
+license: "MIT"
+depends: [
+  "dune" {>= "3.0"}
+  "yojson"
+  "digestif"
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]

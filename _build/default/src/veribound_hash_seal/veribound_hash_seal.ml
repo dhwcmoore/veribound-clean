@@ -1,3 +1,11 @@
+[@@@warning "-32-33-34-37-69-20"]
+
+let compute_seal (json : Yojson.Safe.t) : string =
+  let raw = Yojson.Safe.to_string json in
+  Digestif.SHA256.digest_string raw |> Digestif.SHA256.to_hex
+
+
+
 type __ = Obj.t
 let __ = let rec f _ = Obj.repr f in Obj.repr f
 
@@ -1286,6 +1294,8 @@ let in_boundary_range x b =
         | None -> false)
      | Gt -> false)
   | None -> false
+
+
 
 (** val find_category_flocq :
     verifiedBoundary list -> float64 -> char list option **)

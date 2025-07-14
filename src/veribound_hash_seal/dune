@@ -1,7 +1,5 @@
-(include_subdirs no)
 (library
  (name veribound_hash_seal)
  (modules veribound_hash_seal)
  (libraries yojson digestif)
- (flags (:standard -w -20))
 )

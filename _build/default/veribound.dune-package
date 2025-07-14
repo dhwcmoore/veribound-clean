@@ -1,4 +1,4 @@
 (lang dune 3.19)
 (name veribound)
-(sections (lib .) (doc ../../doc/veribound))
-(files (lib (META dune-package opam)) (doc (README.md)))
+(sections (lib .) (bin ../../bin) (doc ../../doc/veribound))
+(files (lib (META dune-package opam)) (bin (verifier)) (doc (README.md)))

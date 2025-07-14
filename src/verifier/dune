@@ -1,4 +1,4 @@
 (executable
- (name verifier_exec)
- (modules verifier_exec verifier)
- (libraries seal yojson digestif))
+ (public_name verifier)
+ (name verifier)
+ (libraries yojson unix))
