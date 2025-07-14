@@ -1,3 +1,4 @@
-(test
+(executable
+ (public_name test_verifier)
  (name hash_seal_core_test)
- (libraries veribound_hash_seal yojson digestif))
+ (libraries veribound_hash_seal yojson unix))

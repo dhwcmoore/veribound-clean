@@ -1,0 +1,14 @@
+
+# Build artifacts
+_build/
+*.exe
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.install
+dune-project.opam
+
+# Demo binaries (keep source)
+demo_now
+test_enhanced
