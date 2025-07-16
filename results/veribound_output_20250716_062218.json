@@ -1,0 +1,88 @@
+{
+  "input": {
+    "portfolio_id": "BASEL_III_CAPITAL_ADEQUACY_Q3_2025",
+    "verification_type": "capital_ratio_boundaries",
+    "timestamp": "2025-07-15T14:30:00Z",
+    "data_source": "financial_data_clean.csv",
+    "classification_boundaries": {
+      "below_minimum": {
+        "lower": 0.0,
+        "upper": 4.5,
+        "action": "immediate_correction"
+      },
+      "conservation_buffer": {
+        "lower": 4.5,
+        "upper": 6.0,
+        "action": "enhanced_monitoring"
+      },
+      "adequate": {
+        "lower": 6.0,
+        "upper": 8.0,
+        "action": "normal_operations"
+      },
+      "well_capitalized": {
+        "lower": 8.0,
+        "upper": 100.0,
+        "action": "normal_operations"
+      }
+    },
+    "test_data": [
+      {
+        "bank": "BNK001",
+        "ratio": 7.6,
+        "expected": "adequate"
+      },
+      {
+        "bank": "BNK002",
+        "ratio": 8.0,
+        "expected": "well_capitalized"
+      },
+      {
+        "bank": "BNK003",
+        "ratio": 4.8,
+        "expected": "conservation_buffer"
+      },
+      {
+        "bank": "BNK004",
+        "ratio": 7.5,
+        "expected": "adequate"
+      },
+      {
+        "bank": "BNK005",
+        "ratio": 9.1,
+        "expected": "well_capitalized"
+      },
+      {
+        "bank": "BNK006",
+        "ratio": 3.8,
+        "expected": "below_minimum"
+      },
+      {
+        "bank": "BNK007",
+        "ratio": 6.8,
+        "expected": "adequate"
+      },
+      {
+        "bank": "BNK008",
+        "ratio": 7.7,
+        "expected": "adequate"
+      }
+    ]
+  },
+  "template": {
+    "input": "1.16",
+    "domain": "domains/basel_iii_capital_adequacy.yaml",
+    "classification_test": "tier1_capital_ratio",
+    "bank_identifier": "DEMO_BANK_001",
+    "current_ratio": 1.16,
+    "stress_multiplier": 1.5,
+    "regulatory_threshold": "tier1_minimum",
+    "timestamp": "2025-07-15T10:00Z"
+  },
+  "flags": [],
+  "memory_overlay": {},
+  "seal": "6cf8ff099bdb37ee8c5134bf19d0d36330ccff8fbeee8df2ae568451229f8b19",
+  "timestamp": "2025-07-16T06:22:18.387423+00:00",
+  "color": "GREEN",
+  "verified_by": "VeriBound 0.1.3"
+}

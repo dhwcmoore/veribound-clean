@@ -1,0 +1,10 @@
+{
+  "input": "1.16",
+  "domain": "domains/basel_iii_capital_adequacy.yaml",
+  "classification_test": "tier1_capital_ratio",
+  "bank_identifier": "DEMO_BANK_001",
+  "current_ratio": 1.16,
+  "stress_multiplier": 1.5,
+  "regulatory_threshold": "tier1_minimum",
+  "timestamp": "2025-07-15T10:00Z"
+}

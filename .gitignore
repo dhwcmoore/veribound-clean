@@ -12,3 +12,6 @@ dune-project.opam
 # Demo binaries (keep source)
 demo_now
 test_enhanced
+
+# Backups
+backups/

@@ -1,0 +1,9 @@
+{
+  "file": "data/basel_iii_portfolio.json",
+  "timestamp": "2025-07-16T06:28:46.980405+00:00",
+  "status": "PASS",
+  "color": "GREEN",
+  "seal": "6cf8ff099bdb37ee8c5134bf19d0d36330ccff8fbeee8df2ae568451229f8b19",
+  "template_used": "data/basel_iii_capital_adequacy.json",
+  "verified_by": "VeriBound 0.1.3"
+}

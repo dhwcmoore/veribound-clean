@@ -1,0 +1,7 @@
+{
+  "input": "1.16",
+  "domain": "domains/basel_iii_capital_adequacy.yaml",
+  "classification_test": "capital_ratio_stress_test",
+  "bank_identifier": "DEMO_BANK_001",
+  "timestamp": "2025-07-15T10:00Z"
+}

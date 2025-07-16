@@ -1,0 +1,20 @@
+domain: basel_iii_capital_adequacy
+boundaries:
+  - category: "Below_Minimum_CRITICAL"
+    lower: 0.0
+    upper: 4.5
+    action: "immediate_correction_required"
+  - category: "Conservation_Buffer_WATCH"
+    lower: 4.5
+    upper: 6.0
+    action: "enhanced_monitoring"
+  - category: "Adequate_SAFE"
+    lower: 6.0
+    upper: 8.0
+    action: "normal_operations"
+  - category: "Well_Capitalized_EXCELLENT"
+    lower: 8.0
+    upper: 100.0
+    action: "normal_operations"
+verification_level: 3
+regulator: "Federal_Reserve"

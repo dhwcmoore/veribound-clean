@@ -1,0 +1,9 @@
+Bank_ID,Bank_Name,Tier1_Capital,Risk_Weighted_Assets,Capital_Ratio,Classification,Regulatory_Action
+BNK001,Metropolitan Trust,950000000,12500000000,7.6,Adequate,Normal_Operations
+BNK002,Capital Securities,1200000000,15000000000,8.0,Well_Capitalized,Normal_Operations
+BNK003,Regional Finance,580000000,12000000000,4.8,Conservation_Buffer,Enhanced_Monitoring
+BNK004,Community Bank,720000000,9600000000,7.5,Adequate,Normal_Operations
+BNK005,Investment Corp,1500000000,16500000000,9.1,Well_Capitalized,Normal_Operations
+BNK006,Trust Holdings,425000000,11200000000,3.8,Below_Minimum,Immediate_Correction
+BNK007,Financial Services,890000000,13100000000,6.8,Adequate,Normal_Operations
+BNK008,Banking Solutions,1100000000,14200000000,7.7,Adequate,Normal_Operations
