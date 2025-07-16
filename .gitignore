@@ -15,3 +15,29 @@ test_enhanced
 
 # Backups
 backups/
+# Build artifacts
+_build/
+*.log
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files and logs
+*_verification_log.json
+test_*.json
+test_malformed.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Results directory
+results/
+
+# IDE files
+.vscode/
+.idea/
+
