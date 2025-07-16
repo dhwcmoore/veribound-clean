@@ -1,0 +1,26 @@
+{
+  "template_name": "Demo Data Validation Rules",
+  "rules": [
+    {
+      "expression": "isinstance(data.get('exposure'), (int, float)) and data.get('exposure', 0) > 0",
+      "color": "RED",
+      "description": "Exposure must be a positive number"
+    },
+    {
+      "expression": "isinstance(data.get('capital_buffer'), (int, float)) and data.get('capital_buffer', 0) > 0",
+      "color": "RED",
+      "description": "Capital buffer must be a positive number"
+    },
+    {
+      "expression": "isinstance(data.get('risk_model_version'), str)",
+      "color": "RED",
+      "description": "Risk model version must be a string"
+    },
+    {
+      "expression": "data.get('exposure', 0) < 1200000",
+      "color": "YELLOW",
+      "description": "High exposure warning (above 1.2M)"
+    }
+  ],
+  "default_color": "GREEN"
+}

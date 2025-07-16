@@ -1,23 +1,15 @@
-
-# Build artifacts
+# OCaml build artifacts
 _build/
-*.exe
 *.cmi
 *.cmo
 *.cmx
 *.o
-*.install
-dune-project.opam
-
-# Demo binaries (keep source)
-demo_now
-test_enhanced
-
-# Backups
-backups/
-# Build artifacts
-_build/
 *.log
+*.install
+*.exe
+
+# Dune project and OPAM metadata
+dune-project.opam
 
 # Python
 venv/
@@ -25,19 +17,21 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Test files and logs
-*_verification_log.json
+# Test inputs/outputs
 test_*.json
 test_malformed.json
+*_verification_log.json
 
-# Temporary files
+# Demo binaries
+demo_now
+test_enhanced
+
+# Temp + backup
 *.tmp
 *.temp
-
-# Results directory
+backups/
 results/
 
-# IDE files
+# IDE/editor
 .vscode/
 .idea/
-

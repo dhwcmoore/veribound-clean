@@ -1,0 +1,3 @@
+(library
+ (name irrational_seal)
+ (libraries yojson str))

@@ -1,0 +1,21 @@
+{
+  "template_name": "Basel III Validation Rules",
+  "rules": [
+    {
+      "expression": "isinstance(data.get('exposure'), (int, float)) and data.get('exposure', 0) > 0",
+      "color": "RED",
+      "description": "Exposure must be a positive number"
+    },
+    {
+      "expression": "isinstance(data.get('institution_id'), str)",
+      "color": "RED", 
+      "description": "Institution ID must be a string"
+    },
+    {
+      "expression": "data.get('exposure', 0) < 2000000000",
+      "color": "YELLOW",
+      "description": "Large exposure warning"
+    }
+  ],
+  "default_color": "GREEN"
+}
