@@ -1,4 +1,3 @@
 (executable
- (public_name verifier)
  (name verifier)
- (libraries yojson unix))
+ (libraries veribound_hash_seal irrational_seal yojson str))
