@@ -11,6 +11,17 @@ RED = "\033[91m"
 YELLOW = "\033[93m"
 RESET = "\033[0m"
 
+
+# Institutional Authorization System
+import sys
+import os
+sys.path.append(os.path.expanduser('~/.veribound_auth'))
+try:
+    from institutional_verifier import institutional_verify, print_institutional_result
+    INSTITUTIONAL_AVAILABLE = True
+except ImportError:
+    INSTITUTIONAL_AVAILABLE = False
+
 def generate_sha256(content: str):
     return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
@@ -71,8 +82,18 @@ def main():
     seal = generate_sha256(data_str + result)
 
     if result == "pass":
-        print(f"{GREEN}✅ Verification PASSED{RESET}", flush=True)
-        print(f"🔒 Seal: {seal}")
+        # Check for institutional authorization (Level 2)
+        if INSTITUTIONAL_AVAILABLE:
+            enhanced_status, irrational_signature, institutional_id = institutional_verify(seal, "PASSED")
+            if irrational_signature is not None:
+                print_institutional_result(enhanced_status, seal, irrational_signature, institutional_id)
+            else:
+                print(f"{GREEN}✅ Verification PASSED{RESET}", flush=True)
+                print(f"🔒 Seal: {seal}")
+                print(f"{YELLOW}⚠️ Basic validation only - no institutional authorization{RESET}")
+        else:
+            print(f"{GREEN}✅ Verification PASSED{RESET}", flush=True)
+            print(f"🔒 Seal: {seal}")
     elif result == "fail" and color == "YELLOW":
         print(f"{YELLOW}⚠️ Borderline or Symbolic Threshold Breach{RESET}", flush=True)
         print(f"🟡 Seal: {seal}")

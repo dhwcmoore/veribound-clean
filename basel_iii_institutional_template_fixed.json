@@ -1,0 +1,21 @@
+{
+  "template_name": "Basel III Portfolio Institutional Validation",
+  "rules": [
+    {
+      "expression": "isinstance(institution_id, str)",
+      "color": "RED",
+      "description": "Institution ID must be present"
+    },
+    {
+      "expression": "isinstance(portfolio, dict)",
+      "color": "RED", 
+      "description": "Portfolio data must be present"
+    },
+    {
+      "expression": "portfolio.get('total_exposures', 0) > 0",
+      "color": "RED",
+      "description": "Total exposures must be positive"
+    }
+  ],
+  "default_color": "GREEN"
+}

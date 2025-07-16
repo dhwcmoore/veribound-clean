@@ -1,0 +1,9 @@
+domain:
+  name: "AML Cash Transaction Monitoring"
+  regulation: "Bank Secrecy Act 31 CFR 1020.311"
+  
+categories:
+  - name: "CTR_Required"
+    range: [10000, 999999999] 
+    action: "file_ctr_15_days"
+    description: "Currency Transaction Report required"
