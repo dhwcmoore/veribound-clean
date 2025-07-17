@@ -1,0 +1,11 @@
+{
+  "name": "SOC 2 Monitoring",
+  "domain": "cybersecurity",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "log_retention_days",
+      "expression": "data[\"log_retention_days\"]  >= 90"
+    }
+  ]
+}

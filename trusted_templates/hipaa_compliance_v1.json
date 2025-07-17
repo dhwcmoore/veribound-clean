@@ -1,0 +1,11 @@
+{
+  "name": "HIPAA Compliance",
+  "domain": "medical",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "phi_encrypted",
+      "expression": "data[\"phi_encrypted\"]  == True"
+    }
+  ]
+}

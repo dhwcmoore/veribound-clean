@@ -1,0 +1,11 @@
+{
+  "name": "Water Quality",
+  "domain": "environmental",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "lead_ppb",
+      "expression": "data[\"lead_ppb\"]  <= 15"
+    }
+  ]
+}

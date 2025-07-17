@@ -1,0 +1,17 @@
+{
+  "name": "GDPR Access Request Timeliness",
+  "domain": "privacy",
+  "version": "1.1",
+  "description": "Verifies access requests are processed within legal time limits.",
+  "rules": [
+    {
+      "field": "response_days",
+      "expression": "data['response_days'] <= 30"
+    },
+    {
+      "field": "request_logged",
+      "expression": "data['request_logged'] == True"
+    }
+  ],
+  "logic": "AND"
+}

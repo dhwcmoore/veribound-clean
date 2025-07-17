@@ -1,0 +1,11 @@
+{
+  "name": "EHR Data Validation",
+  "domain": "medical",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "ehr_complete",
+      "expression": "data[\"ehr_complete\"]  == True"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Data Retention Policy",
+  "domain": "compliance",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "retention_years",
+      "expression": "data[\"retention_years\"]  >= 7"
+    }
+  ]
+}

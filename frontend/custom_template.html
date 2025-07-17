@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VeriBound | Custom Template Builder</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; max-width: 1000px; margin: auto; }
+    .section { margin-bottom: 2em; border: 2px dashed #ccc; padding: 1em; }
+    .label { font-weight: bold; display: block; margin-top: 1em; }
+    textarea, input, select, button { width: 100%; margin-top: 0.3em; padding: 0.4em; font-size: 1em; }
+    .rule-row { display: flex; gap: 1em; margin-top: 1em; }
+    .rule-row input { flex: 1; }
+    .json-preview { background: #f0f0f0; padding: 1em; white-space: pre-wrap; font-family: monospace; }
+  </style>
+</head>
+<body>
+
+  <h1>VeriBound: Create Your Own Template</h1>
+
+  <div class="section">
+    <label class="label">Template Name:</label>
+    <input type="text" id="template-name" placeholder="e.g. Custom Financial Thresholds">
+
+    <label class="label">Domain:</label>
+    <select id="template-domain">
+      <option value="financial">Financial</option>
+      <option value="nuclear">Nuclear</option>
+      <option value="medical">Medical</option>
+      <option value="environmental">Environmental</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <label class="label">Add Validation Rules</label>
+    <div id="rules-container">
+      <div class="rule-row">
+        <input placeholder="Field Name" />
+        <input placeholder="Expression (e.g. typeof data.age === 'number')" />
+      </div>
+    </div>
+    <button onclick="addRule()">➕ Add Another Rule</button>
+  </div>
+
+  <div class="section">
+    <label class="label">Live Template Preview:</label>
+    <div class="json-preview" id="template-preview">{"name": "", "domain": "", "rules": []}</div>
+  </div>
+
+  <div class="section">
+    <label class="label">Enter Your Data (JSON):</label>
+    <textarea id="json-input" rows="8" placeholder='{"field1": 123, "field2": "abc"}'></textarea>
+    <button onclick="submitCustom()">✅ Submit to Validator</button>
+  </div>
+
+  <div class="section">
+    <label class="label">Result:</label>
+    <div id="result-block">
+      <p>Status: <span id="status">–</span></p>
+      <p>Seal: <span id="seal">–</span></p>
+      <p>Marker: <span id="marker">–</span></p>
+      <p>Signed Seal: <span id="signed_seal">–</span></p>
+      <p>Issuer: <span id="issuer">–</span></p>
+    </div>
+  </div>
+
+  <script>
+    function addRule() {
+      const container = document.getElementById("rules-container");
+      const row = document.createElement("div");
+      row.className = "rule-row";
+      row.innerHTML = '<input placeholder="Field Name" /><input placeholder="Expression (e.g. typeof data.amount > 0)" />';
+      container.appendChild(row);
+      updatePreview();
+    }
+
+    function updatePreview() {
+      const name = document.getElementById("template-name").value;
+      const domain = document.getElementById("template-domain").value;
+      const rules = [];
+
+      const rows = document.querySelectorAll("#rules-container .rule-row");
+      rows.forEach(row => {
+        const inputs = row.querySelectorAll("input");
+        if (inputs[0].value && inputs[1].value) {
+          rules.push({
+            field: inputs[0].value,
+            expression: inputs[1].value
+          });
+        }
+      });
+
+      const template = {
+        name,
+        domain,
+        rules
+      };
+
+      document.getElementById("template-preview").textContent = JSON.stringify(template, null, 2);
+    }
+
+    function submitCustom() {
+      updatePreview();
+      const template = JSON.parse(document.getElementById("template-preview").textContent);
+      let parsedData;
+      try {
+        parsedData = JSON.parse(document.getElementById("json-input").value);
+      } catch (e) {
+        alert("Invalid JSON data.");
+        return;
+      }
+
+      fetch("http://localhost:5000/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ data: parsedData, template: template })
+      })
+      .then(res => res.json())
+      .then(json => {
+        document.getElementById("status").textContent = json.status;
+        document.getElementById("seal").textContent = json.seal;
+        document.getElementById("marker").textContent = json.marker;
+        document.getElementById("signed_seal").textContent = json.signed_seal;
+        document.getElementById("issuer").textContent = json.issuer;
+      });
+    }
+
+    document.querySelectorAll("input, select").forEach(el => {
+      el.addEventListener("input", updatePreview);
+    });
+  </script>
+
+</body>
+</html>

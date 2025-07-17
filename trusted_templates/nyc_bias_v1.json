@@ -1,0 +1,11 @@
+{
+  "name": "NYC AI Bias Audit",
+  "domain": "privacy",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "audit_passed",
+      "expression": "data[\"audit_passed\"]  == True"
+    }
+  ]
+}

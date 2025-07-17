@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VeriBound | Institutional Verification Portal</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; max-width: 900px; margin: auto; }
+    .step-box { border: 2px dashed #ccc; padding: 1em; margin-bottom: 1em; }
+    .active { border-color: #333; background-color: #f9f9f9; }
+    .step-label { font-weight: bold; font-size: 1.1em; }
+    .status { font-weight: bold; font-size: 1.2em; }
+    .verified { color: green; }
+    .failed { color: red; }
+    .demoverified { color: orange; }
+    select, textarea, input, button { width: 100%; margin-top: 0.5em; font-size: 1em; }
+  </style>
+</head>
+<body>
+  <h1>VeriBound: Step-by-Step Verification</h1>
+
+  <div id="step1" class="step-box active">
+    <div class="step-label">Step 1: Select Template</div>
+    <select id="template-select">
+      <option value="" disabled selected>Select a template...</option>
+      <option value="basel_iii">Basel III (Financial)</option>
+      <option value="nuclear_compliance">Nuclear Regulation (Nuclear)</option>
+      <option value="clinical_trial">Clinical Trial Safety (Medical)</option>
+      <option value="emissions_check">Environmental Emissions Check (Environmental)</option>
+    </select>
+  </div>
+
+  <div id="step2" class="step-box">
+    <div class="step-label">Step 2: Enter Data (JSON)</div>
+    <textarea id="json-input" rows="10" placeholder='{"field1": "value", ...}'></textarea>
+  </div>
+
+  <div id="step3" class="step-box">
+    <div class="step-label">Step 3: Verify</div>
+    <button onclick="verifyData()">Submit for Verification</button>
+  </div>
+
+  <div id="step4" class="step-box">
+    <div class="step-label">Step 4: Results</div>
+    <div id="result-block">
+      <p>Status: <span class="status" id="status">–</span></p>
+      <p>Issuer: <span id="issuer">–</span></p>
+      <p>Seal: <span id="seal">–</span></p>
+      <p>Signed Seal: <span id="signed_seal">–</span></p>
+      <p>Marker: <span id="marker">–</span></p>
+      <p>Credential Expires: <span id="expires">–</span></p>
+      <p>Fingerprint: <span id="fingerprint">–</span></p>
+      <p>Regime: <span id="regime">–</span></p>
+      <p>Template Hash: <span id="template_hash">–</span></p>
+    </div>
+  </div>
+
+  <script>
+    function verifyData() {
+      const template = document.getElementById("template-select").value;
+      const rawData = document.getElementById("json-input").value;
+
+      if (!template || !rawData) {
+        alert("Please select a template and enter valid JSON.");
+        return;
+      }
+
+      let parsed;
+      try {
+        parsed = JSON.parse(rawData);
+      } catch (e) {
+        alert("Invalid JSON format.");
+        return;
+      }
+
+      fetch("http://localhost:5000/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ data: parsed, template: template })
+      })
+      .then(res => res.json())
+      .then(json => {
+        document.getElementById("status").textContent = json.status;
+        document.getElementById("issuer").textContent = json.issuer;
+        document.getElementById("seal").textContent = json.seal;
+        document.getElementById("signed_seal").textContent = json.signed_seal;
+        document.getElementById("marker").textContent = json.marker;
+        document.getElementById("expires").textContent = json.credential_expires;
+        document.getElementById("fingerprint").textContent = json.license_fingerprint;
+        document.getElementById("regime").textContent = json.regime?.name + " (" + json.regime?.domain + ")";
+        document.getElementById("template_hash").textContent = json.template_hash;
+
+        const statusEl = document.getElementById("status");
+        statusEl.className = "status " +
+          (json.mode === "VERIFIED" ? "verified" : json.mode === "DEMO" ? "demoverified" : "failed");
+      });
+    }
+
+    document.getElementById("template-select").addEventListener("change", () => {
+      document.getElementById("step1").classList.remove("active");
+      document.getElementById("step2").classList.add("active");
+    });
+  </script>
+
+</body>
+</html>

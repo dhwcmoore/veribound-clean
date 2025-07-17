@@ -1,0 +1,11 @@
+{
+  "name": "ICS NIST 800-82",
+  "domain": "infrastructure",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "ics_access_control",
+      "expression": "data[\"ics_access_control\"]  == True"
+    }
+  ]
+}

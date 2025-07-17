@@ -1,0 +1,11 @@
+{
+  "name": "ISO 27001 Asset Inventory",
+  "domain": "cybersecurity",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "asset_listed",
+      "expression": "data[\"asset_listed\"]  == True"
+    }
+  ]
+}

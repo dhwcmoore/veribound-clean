@@ -1,0 +1,11 @@
+{
+  "name": "SOX IT General Controls",
+  "domain": "financial",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "controls_tested",
+      "expression": "data[\"controls_tested\"]  == True"
+    }
+  ]
+}

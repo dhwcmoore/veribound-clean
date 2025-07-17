@@ -1,0 +1,11 @@
+{
+  "name": "FDA Safety Reporting",
+  "domain": "medical",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "serious_events",
+      "expression": "data[\"serious_events\"]  == 0"
+    }
+  ]
+}

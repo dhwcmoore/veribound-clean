@@ -1,0 +1,11 @@
+{
+  "name": "NRC Dose Limits",
+  "domain": "nuclear",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "annual_dose_msv",
+      "expression": "data[\"annual_dose_msv\"]  <= 50"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MiFID II Reporting",
+  "domain": "financial",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "transaction_type",
+      "expression": "data[\"transaction_type\"]  in [\"buy\", \"sell\"]"
+    }
+  ]
+}

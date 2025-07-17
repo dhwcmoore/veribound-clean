@@ -1,0 +1,11 @@
+{
+  "name": "Internal Audit Checklist",
+  "domain": "corporate",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "audit_checklist_completed",
+      "expression": "data[\"audit_checklist_completed\"]  == True"
+    }
+  ]
+}

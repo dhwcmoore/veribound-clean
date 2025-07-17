@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED",
+  "seal": "3679ebedec398a46732c156f9848df814f19e524d324eb6b25a78ebb2d10dc20",
+  "signed_seal": "77ae58e4f9a852f8ee9e79e5057c2a83454133730da2d9b3fdd7ac824b391d51",
+  "marker": "3.955145118733509 \u2734\ufe0fTrialSphere:Echo",
+  "issuer": "VeriSys DEMO Authority",
+  "mode": "DEMO",
+  "timestamp": "2025-07-17T05:08:11.784080",
+  "credential_expires": "N/A",
+  "license_fingerprint": "1d0e4f9fa1a8d69d6d7bd5785de36de155157c1cf8cba88aa141155ac0d5cc8d",
+  "regime": {
+    "name": "Clinical Trial Safety",
+    "domain": "medical",
+    "version": "1.0"
+  },
+  "template_hash": "ae3847a3a9a461e49e07c867a455a876221f18e817122660230209282a5f5c68"
+}

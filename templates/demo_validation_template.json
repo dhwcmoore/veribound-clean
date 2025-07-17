@@ -1,0 +1,19 @@
+{
+  "name": "Demo Institutional Template",
+  "version": "1.0",
+  "simulate_authority": false,
+  "authority_metadata": {
+    "institution": "VeriSys Root Authority",
+    "issued_on": "2025-07-16"
+  },
+  "expression_rules": [
+    {
+      "field": "field1",
+      "expression": "isinstance(data.get('field1'), int)"
+    },
+    {
+      "field": "field2",
+      "expression": "data.get('field2') in ['ok', 'pass']"
+    }
+  ]
+}

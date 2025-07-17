@@ -1,0 +1,11 @@
+{
+  "name": "Dodd-Frank Clearing",
+  "domain": "financial",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "swap_exposure",
+      "expression": "data[\"swap_exposure\"]  <= 8000000"
+    }
+  ]
+}

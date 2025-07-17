@@ -1,0 +1,11 @@
+{
+  "name": "Air Quality Index",
+  "domain": "environmental",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "aqi",
+      "expression": "data[\"aqi\"]  <= 100"
+    }
+  ]
+}

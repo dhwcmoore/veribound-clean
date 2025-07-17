@@ -1,0 +1,11 @@
+{
+  "name": "NIST CSF Control",
+  "domain": "cybersecurity",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "access_reviews_completed",
+      "expression": "data[\"access_reviews_completed\"]  == True"
+    }
+  ]
+}

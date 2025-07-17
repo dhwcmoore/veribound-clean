@@ -1,0 +1,11 @@
+{
+  "name": "Pipeline Safety File",
+  "domain": "infrastructure",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "valve_inspection_complete",
+      "expression": "data[\"valve_inspection_complete\"]  == True"
+    }
+  ]
+}

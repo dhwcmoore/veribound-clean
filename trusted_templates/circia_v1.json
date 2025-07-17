@@ -1,0 +1,11 @@
+{
+  "name": "CIRCIA Breach Timing",
+  "domain": "cybersecurity",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "reported_hours",
+      "expression": "data[\"reported_hours\"]  <= 72"
+    }
+  ]
+}

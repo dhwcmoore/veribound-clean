@@ -1,0 +1,11 @@
+{
+  "name": "Hazardous Waste Reporting",
+  "domain": "environmental",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "manifest_complete",
+      "expression": "data[\"manifest_complete\"]  == True"
+    }
+  ]
+}

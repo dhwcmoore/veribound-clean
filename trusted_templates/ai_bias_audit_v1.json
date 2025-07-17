@@ -1,0 +1,11 @@
+{
+  "name": "AI Bias Audit",
+  "domain": "privacy",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "0.8",
+      "expression": "data[\"0.8\"]  <= bias_ratio <= 1.25"
+    }
+  ]
+}

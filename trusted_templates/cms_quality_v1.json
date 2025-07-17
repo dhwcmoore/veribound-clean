@@ -1,0 +1,11 @@
+{
+  "name": "CMS Quality Metrics",
+  "domain": "medical",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "readmission_rate",
+      "expression": "data[\"readmission_rate\"]  <= 0.15"
+    }
+  ]
+}

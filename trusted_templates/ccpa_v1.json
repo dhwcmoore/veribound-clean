@@ -1,0 +1,11 @@
+{
+  "name": "CCPA Opt-Out",
+  "domain": "privacy",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "opt_out_available",
+      "expression": "data[\"opt_out_available\"]  == True"
+    }
+  ]
+}

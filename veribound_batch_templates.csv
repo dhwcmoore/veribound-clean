@@ -1,0 +1,5 @@
+id,name,domain,version,field,expression
+basel_iii_v1,Basel III Capital,financial,1.0,tier1_ratio,"data[""tier1_ratio""] >= 6.0"
+basel_iii_v1,Basel III Capital,financial,1.0,tier2_ratio,"data[""tier2_ratio""] >= 2.0"
+clinical_trial_v1,Clinical Trial Safety,medical,1.0,participants,"isinstance(data[""participants""], list) and len(data[""participants""]) > 0"
+clinical_trial_v1,Clinical Trial Safety,medical,1.0,serious_adverse_events,"data[""serious_adverse_events""] == 0"

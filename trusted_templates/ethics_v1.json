@@ -1,0 +1,11 @@
+{
+  "name": "Corporate Ethics Reporting",
+  "domain": "corporate",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "anonymous_reporting_enabled",
+      "expression": "data[\"anonymous_reporting_enabled\"]  == True"
+    }
+  ]
+}

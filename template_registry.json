@@ -1,0 +1,22 @@
+{
+  "basel_iii_v1": {
+    "file": "basel_iii_v1.json",
+    "hash": "3daf333be3514c8b597e84e4e412e0ea1ede467cdde7401dc4c5e9c2bcd6dd46",
+    "signature": "SIGNATURE(3daf333be351...VERISYS)"
+  },
+  "aqi_thresholds_v1": {
+    "file": "aqi_thresholds_v1.json",
+    "hash": "ae77ad5ca03b5d4e5d68306bbd8e6cb32b4713d9b98a7e155f130e9d3cca0bc1",
+    "signature": "SIGNATURE(ae77ad5ca03b...VERISYS)"
+  },
+  "clinical_trial_v1": {
+    "file": "clinical_trial_v1.json",
+    "hash": "ae3847a3a9a461e49e07c867a455a876221f18e817122660230209282a5f5c68",
+    "signature": "SIGNATURE(ae3847a3a9a4...VERISYS)"
+  },
+  "emissions_check_v1": {
+    "file": "emissions_check_v1.json",
+    "hash": "c104038d36234b7c9a2963af8cee59d6c7b350c227af89f2e65ccd38dfb759d7",
+    "signature": "SIGNATURE(c104038d3623...VERISYS)"
+  }
+}

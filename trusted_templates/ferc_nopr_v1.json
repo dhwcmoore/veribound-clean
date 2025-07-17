@@ -1,0 +1,11 @@
+{
+  "name": "FERC NOPR Compliance",
+  "domain": "infrastructure",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "grid_event_logged",
+      "expression": "data[\"grid_event_logged\"]  == True"
+    }
+  ]
+}

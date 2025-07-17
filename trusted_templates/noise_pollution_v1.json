@@ -1,0 +1,11 @@
+{
+  "name": "Noise Pollution Limits",
+  "domain": "environmental",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "db_level",
+      "expression": "data[\"db_level\"]  <= 85"
+    }
+  ]
+}

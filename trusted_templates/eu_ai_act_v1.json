@@ -1,0 +1,11 @@
+{
+  "name": "EU AI Risk Level",
+  "domain": "privacy",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "risk_level",
+      "expression": "data[\"risk_level\"]  in [\"low\", \"medium\", \"high\"]"
+    }
+  ]
+}

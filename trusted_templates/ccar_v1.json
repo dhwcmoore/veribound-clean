@@ -1,0 +1,11 @@
+{
+  "name": "CCAR Stress Test",
+  "domain": "financial",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "capital_ratio_stress",
+      "expression": "data[\"capital_ratio_stress\"]  >= 4.5"
+    }
+  ]
+}

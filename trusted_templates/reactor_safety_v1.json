@@ -1,0 +1,11 @@
+{
+  "name": "Reactor Safety Check",
+  "domain": "nuclear",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "cooling_backup",
+      "expression": "data[\"cooling_backup\"]  == True"
+    }
+  ]
+}

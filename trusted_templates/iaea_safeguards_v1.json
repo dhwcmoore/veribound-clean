@@ -1,0 +1,11 @@
+{
+  "name": "IAEA Material Reporting",
+  "domain": "nuclear",
+  "version": "1.0",
+  "rules": [
+    {
+      "field": "snm_grams",
+      "expression": "data[\"snm_grams\"]  <= 500"
+    }
+  ]
+}

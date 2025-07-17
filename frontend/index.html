@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VeriBound Regulatory Validator</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 900px; margin: auto; }
+    textarea, select, button { width: 100%; margin-top: 10px; }
+    textarea { height: 180px; font-family: monospace; padding: 10px; }
+    .step-box { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+    .step-box h3 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <h2>🛡 VeriBound Validator (Coloured + Realistic)</h2>
+  <div class="step-box" id="step1">
+    <h3>Step 1: Choose a Template</h3>
+    <select id="templateSelect" onchange="loadExample()"></select>
+  </div>
+  <div class="step-box" id="step2">
+    <h3>Step 2: Enter JSON Data</h3>
+    <textarea id="jsonInput"></textarea>
+  </div>
+  <div class="step-box" id="step3">
+    <h3>Step 3: Submit</h3>
+    <button onclick="submitData()">Verify</button>
+  </div>
+  <div class="step-box" id="step4">
+    <h3>Step 4: Results</h3>
+    <pre id="resultArea"></pre>
+  </div>
+
+<script>
+const registry = [{"id": "basel_iii_v1", "name": "Basel III Capital", "domain": "financial", "version": "1.0"}, {"id": "mifid_ii_v1", "name": "MiFID II Reporting", "domain": "financial", "version": "1.0"}, {"id": "ccar_v1", "name": "CCAR Stress Test", "domain": "financial", "version": "1.0"}, {"id": "fatca_v1", "name": "FATCA Compliance", "domain": "financial", "version": "1.0"}, {"id": "dodd_frank_v1", "name": "Dodd-Frank Clearing", "domain": "financial", "version": "1.0"}, {"id": "sox_itgc_v1", "name": "SOX IT General Controls", "domain": "financial", "version": "1.0"}, {"id": "fda_reporting_v1", "name": "FDA Safety Reporting", "domain": "medical", "version": "1.0"}, {"id": "cms_quality_v1", "name": "CMS Quality Metrics", "domain": "medical", "version": "1.0"}, {"id": "hipaa_compliance_v1", "name": "HIPAA Compliance", "domain": "medical", "version": "1.0"}, {"id": "ehr_validation_v1", "name": "EHR Data Validation", "domain": "medical", "version": "1.0"}, {"id": "aqi_thresholds_v1", "name": "Air Quality Index", "domain": "environmental", "version": "1.0"}, {"id": "emissions_check_v1", "name": "Emissions Compliance", "domain": "environmental", "version": "1.0"}, {"id": "water_safety_v1", "name": "Water Quality", "domain": "environmental", "version": "1.0"}, {"id": "waste_reporting_v1", "name": "Hazardous Waste Reporting", "domain": "environmental", "version": "1.0"}, {"id": "noise_pollution_v1", "name": "Noise Pollution Limits", "domain": "environmental", "version": "1.0"}, {"id": "nrc_limits_v1", "name": "NRC Dose Limits", "domain": "nuclear", "version": "1.0"}, {"id": "iaea_safeguards_v1", "name": "IAEA Material Reporting", "domain": "nuclear", "version": "1.0"}, {"id": "reactor_safety_v1", "name": "Reactor Safety Check", "domain": "nuclear", "version": "1.0"}, {"id": "gdpr_v1", "name": "GDPR Access Request", "domain": "privacy", "version": "1.0"}, {"id": "ai_bias_audit_v1", "name": "AI Bias Audit", "domain": "privacy", "version": "1.0"}, {"id": "ccpa_v1", "name": "CCPA Opt-Out", "domain": "privacy", "version": "1.0"}, {"id": "eu_ai_act_v1", "name": "EU AI Risk Level", "domain": "privacy", "version": "1.0"}, {"id": "nyc_bias_v1", "name": "NYC AI Bias Audit", "domain": "privacy", "version": "1.0"}, {"id": "nist_csf_v1", "name": "NIST CSF Control", "domain": "cybersecurity", "version": "1.0"}, {"id": "circia_v1", "name": "CIRCIA Breach Timing", "domain": "cybersecurity", "version": "1.0"}, {"id": "iso27001_v1", "name": "ISO 27001 Asset Inventory", "domain": "cybersecurity", "version": "1.0"}, {"id": "soc2_v1", "name": "SOC 2 Monitoring", "domain": "cybersecurity", "version": "1.0"}, {"id": "ferc_nopr_v1", "name": "FERC NOPR Compliance", "domain": "infrastructure", "version": "1.0"}, {"id": "nist_800_82_v1", "name": "ICS NIST 800-82", "domain": "infrastructure", "version": "1.0"}, {"id": "pdsf_v1", "name": "Pipeline Safety File", "domain": "infrastructure", "version": "1.0"}, {"id": "ethics_v1", "name": "Corporate Ethics Reporting", "domain": "corporate", "version": "1.0"}, {"id": "internal_audit_v1", "name": "Internal Audit Checklist", "domain": "corporate", "version": "1.0"}, {"id": "data_retention_v1", "name": "Data Retention Policy", "domain": "compliance", "version": "1.0"}, {"id": "records_mgmt_v1", "name": "Records Management", "domain": "compliance", "version": "1.0"}, {"id": "custom", "name": "\ud83d\udee0 Create Your Own Template", "domain": "custom", "version": "N/A"}];
+const examples = {"basel_iii_v1": {"tier1_ratio": 1}, "mifid_ii_v1": {"transaction_type": true}, "ccar_v1": {"capital_ratio_stress": 1}, "fatca_v1": {"foreign_assets": 1}, "dodd_frank_v1": {"swap_exposure": 1}, "sox_itgc_v1": {"controls_tested": true}, "fda_reporting_v1": {"serious_events": true}, "cms_quality_v1": {"readmission_rate": 1}, "hipaa_compliance_v1": {"phi_encrypted": true}, "ehr_validation_v1": {"ehr_complete": true}, "aqi_thresholds_v1": {"aqi": 1}, "emissions_check_v1": {"co2e_tons": 1}, "water_safety_v1": {"lead_ppb": 1}, "waste_reporting_v1": {"manifest_complete": true}, "noise_pollution_v1": {"db_level": 1}, "nrc_limits_v1": {"annual_dose_msv": 1}, "iaea_safeguards_v1": {"snm_grams": 1}, "reactor_safety_v1": {"cooling_backup": true}, "gdpr_v1": {"response_days": 1}, "ai_bias_audit_v1": {"0.8": 1}, "ccpa_v1": {"opt_out_available": true}, "eu_ai_act_v1": {"risk_level": true}, "nyc_bias_v1": {"audit_passed": true}, "nist_csf_v1": {"access_reviews_completed": true}, "circia_v1": {"reported_hours": 1}, "iso27001_v1": {"asset_listed": true}, "soc2_v1": {"log_retention_days": 1}, "ferc_nopr_v1": {"grid_event_logged": true}, "nist_800_82_v1": {"ics_access_control": true}, "pdsf_v1": {"valve_inspection_complete": true}, "ethics_v1": {"anonymous_reporting_enabled": true}, "internal_audit_v1": {"audit_checklist_completed": true}, "data_retention_v1": {"retention_years": 1}, "records_mgmt_v1": {"classification_policy_exists": true}, "custom": {"example_field": "value"}};
+const colorMap = {"financial": "#e6f4ea", "medical": "#e6f0fa", "environmental": "#fffde6", "nuclear": "#fae6e6", "privacy": "#f3e6fa", "cybersecurity": "#f0f0f0", "infrastructure": "#f5eee0", "corporate": "#fff0e6", "compliance": "#fff0cc", "custom": "#ffffff"};
+
+function loadDropdown() {
+  const sel = document.getElementById("templateSelect");
+  sel.innerHTML = "";
+  registry.forEach(t => {
+    const opt = document.createElement("option");
+    opt.value = t.id;
+    opt.textContent = t.name + " (" + t.domain + ")";
+    sel.appendChild(opt);
+  });
+  loadExample();
+}
+
+function loadExample() {
+  const id = document.getElementById("templateSelect").value;
+  const template = registry.find(t => t.id === id);
+  const color = colorMap[template.domain] || "#ffffff";
+  document.getElementById("step1").style.backgroundColor = color;
+  document.getElementById("step2").style.backgroundColor = color;
+  document.getElementById("step3").style.backgroundColor = color;
+  document.getElementById("step4").style.backgroundColor = color;
+  document.getElementById("jsonInput").value = JSON.stringify(examples[id] || {}, null, 2);
+}
+
+async function submitData() {
+  const id = document.getElementById("templateSelect").value;
+  const raw = document.getElementById("jsonInput").value;
+  try {
+    const parsed = JSON.parse(raw);
+    const res = await fetch("http://localhost:5000/verify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ template: id, data: parsed })
+    });
+    const result = await res.json();
+    document.getElementById("resultArea").textContent = JSON.stringify(result, null, 2);
+  } catch (err) {
+    document.getElementById("resultArea").textContent = "❌ Invalid JSON input or server error.";
+  }
+}
+
+window.onload = loadDropdown;
+</script>
+</body>
+</html>
