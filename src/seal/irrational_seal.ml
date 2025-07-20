@@ -1,9 +1,3 @@
-(* 
-  FEATURE: irrational_seal
-  Description: Hashing pipeline to produce a deterministic seal for audit verification.
-  Origin: Recovered from ~/veribound-clean/src/backup_hash_seal_files/veribound_hash_seal.ml
-*)
-
 open Yojson.Basic.Util
 
 type result_entry = {
