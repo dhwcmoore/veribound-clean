@@ -1,0 +1,8 @@
+(executable
+ (name test_verifier)
+ (modules Test_verifier)
+ (libraries veribound yojson))
+
+(opam
+ (depends
+  (yojson)))

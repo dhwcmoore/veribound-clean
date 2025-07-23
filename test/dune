@@ -1,4 +1,13 @@
-(executable
- (public_name test_verifier)
- (name hash_seal_core_test)
- (libraries irrational_seal yojson unix))
+(executables
+ (names
+   demonstration_1
+   demonstration_2
+   demonstration_3
+   test_verifier)
+ (modules
+   Demonstration_1
+   Demonstration_2
+   Demonstration_3
+   Test_verifier)
+ (libraries verifier yojson digestif)
+ (flags (:standard -w -27)))

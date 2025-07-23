@@ -1,6 +1,12 @@
-open Verifier
+(* test/test_verifier.ml *)
 
 let () =
-  let test_file = "results/veribound_output_20250713_0220.json" in
-  let (_ok, msg) = verify_seal_from_file test_file in
-  Printf.printf "Verification result for %s:\n%s\n" test_file msg
+  let filename =
+    if Array.length Sys.argv > 1 then Sys.argv.(1)
+    else (
+      prerr_endline "❌ Error: Please provide a JSON file to verify.";
+      exit 1
+    )
+  in
+  let (ok, msg) = Verifier.verify_seal_from_file filename in
+  Printf.printf "Verification result for %s:\n%s\n" filename msg

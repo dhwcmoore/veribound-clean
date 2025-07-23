@@ -1,3 +1,4 @@
-(executable
+(library
  (name verifier)
- (libraries veribound_hash_seal irrational_seal yojson str unix))
+ (modules verifier)
+ (libraries yojson veribound.seal digestif))

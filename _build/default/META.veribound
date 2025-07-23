@@ -1,0 +1,15 @@
+description = ""
+requires = "yojson"
+archive(byte) = "veribound.cma"
+archive(native) = "veribound.cmxa"
+plugin(byte) = "veribound.cma"
+plugin(native) = "veribound.cmxs"
+package "seal" (
+  directory = "seal"
+  description = ""
+  requires = "digestif yojson"
+  archive(byte) = "seal.cma"
+  archive(native) = "seal.cmxa"
+  plugin(byte) = "seal.cma"
+  plugin(native) = "seal.cmxs"
+)

@@ -1,3 +1,5 @@
-(library
- (name irrational_seal)
+ (library
+ (name seal)
+ (public_name veribound.seal)
+ (modules irrational_seal)
  (libraries yojson digestif))

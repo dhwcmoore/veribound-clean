@@ -1,7 +1,76 @@
 (lang dune 3.19)
 (name veribound)
-(sections (lib .) (bin ../../bin) (doc ../../doc/veribound))
+(sections (lib .) (libexec .) (doc ../../doc/veribound))
 (files
- (lib (META dune-package opam))
- (bin (test_verifier verifier))
- (doc (README.md)))
+ (lib
+  (META
+   dune-package
+   opam
+   seal/irrational_seal.ml
+   seal/irrational_seal.mli
+   seal/seal.a
+   seal/seal.cma
+   seal/seal.cmi
+   seal/seal.cmt
+   seal/seal.cmx
+   seal/seal.cmxa
+   seal/seal.ml
+   seal/seal__Irrational_seal.cmi
+   seal/seal__Irrational_seal.cmt
+   seal/seal__Irrational_seal.cmti
+   seal/seal__Irrational_seal.cmx
+   veribound.a
+   veribound.cma
+   veribound.cmi
+   veribound.cmt
+   veribound.cmx
+   veribound.cmxa
+   veribound.ml))
+ (libexec (seal/seal.cmxs veribound.cmxs))
+ (doc ("README (1).md" README.md)))
+(library
+ (name veribound)
+ (kind normal)
+ (archives (byte veribound.cma) (native veribound.cmxa))
+ (plugins (byte veribound.cma) (native veribound.cmxs))
+ (native_archives veribound.a)
+ (requires yojson)
+ (main_module_name Veribound)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name veribound)
+     (visibility public)
+     (kind alias)
+     (source (path Veribound) (impl (path veribound.ml-gen))))
+    (name Veribound))
+   (wrapped true))))
+(library
+ (name veribound.seal)
+ (kind normal)
+ (archives (byte seal/seal.cma) (native seal/seal.cmxa))
+ (plugins (byte seal/seal.cma) (native seal/seal.cmxs))
+ (native_archives seal/seal.a)
+ (requires yojson digestif)
+ (main_module_name Seal)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name seal)
+     (visibility public)
+     (kind alias)
+     (source (path Seal) (impl (path seal/seal.ml-gen))))
+    (name Seal)
+    (modules
+     (module
+      (obj_name seal__Irrational_seal)
+      (visibility public)
+      (source
+       (path Irrational_seal)
+       (intf (path seal/irrational_seal.mli))
+       (impl (path seal/irrational_seal.ml))))))
+   (wrapped true))))

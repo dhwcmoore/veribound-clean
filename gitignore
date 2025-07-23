@@ -1,0 +1,39 @@
+
+# Dune build artifacts
+_build/
+*.install
+
+# OCaml compiled files
+*.cm*
+*.o
+*.a
+*.so
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.annot
+*.byte
+*.native
+
+# Editor and OS junk
+*~
+*.swp
+*.bak
+.DS_Store
+
+# Logs and outputs
+*.log
+*.png
+*.html
+*.json
+
+# Virtual environments and Python cache
+venv/
+__pycache__/
+*.pyc
+
+# Result directories
+results/

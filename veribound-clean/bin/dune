@@ -1,0 +1,4 @@
+(executable
+ (public_name veribound-clean)
+ (name main)
+ (libraries veribound_clean))
